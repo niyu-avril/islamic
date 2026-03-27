@@ -1,0 +1,1697 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aqidah (1) – Aqidah Islam | Terjemahan Lengkap</title>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Noto+Serif:ital,wght@0,400;0,600;1,400&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+--teal:#0e7490;--teal-light:#f0fdfa;--teal-mid:#ccfbf1;
+--amber:#d97706;--amber-light:#fffbeb;--amber-mid:#fef3c7;
+--red:#dc2626;--red-light:#fef2f2;--red-mid:#fee2e2;
+--blue:#2563eb;--blue-light:#eff6ff;--blue-mid:#dbeafe;
+--green:#16a34a;--green-light:#f0fdf4;--green-mid:#dcfce7;
+--purple:#7c3aed;--purple-light:#faf5ff;--purple-mid:#ede9fe;
+--slate:#475569;--ink:#1e293b;--muted:#64748b;--border:#e2e8f0;
+--bg:#f8fafc;--white:#ffffff;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Nunito',sans-serif;font-size:15px;line-height:1.75;color:var(--ink);background:var(--bg)}
+
+/* ---- COVER ---- */
+.cover{background:linear-gradient(160deg,#0c4a6e 0%,#0e7490 40%,#0891b2 100%);color:#fff;padding:3rem 2rem 2.5rem;text-align:center;position:relative;overflow:hidden}
+.cover::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")}
+.cover .badge{display:inline-block;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);border-radius:20px;padding:5px 16px;font-size:.8rem;letter-spacing:.05em;margin-bottom:1.25rem}
+.cover h1{font-family:'Noto Serif',serif;font-size:2.75rem;font-weight:600;line-height:1.2;margin-bottom:.5rem}
+.cover .subtitle{font-size:1.1rem;opacity:.88;margin-bottom:.25rem}
+.cover .meta{font-size:.82rem;opacity:.65;margin-top:.75rem}
+
+/* ---- NAV ---- */
+.nav-wrap{background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:200;box-shadow:0 1px 6px rgba(0,0,0,.06)}
+.nav-scroll{display:flex;overflow-x:auto;padding:0;scrollbar-width:none}
+.nav-scroll::-webkit-scrollbar{display:none}
+.nav-btn{flex-shrink:0;padding:.8rem 1.15rem;font-size:.82rem;font-weight:600;border:none;background:transparent;cursor:pointer;color:var(--muted);border-bottom:2.5px solid transparent;white-space:nowrap;transition:all .15s;letter-spacing:.01em}
+.nav-btn.active{color:var(--teal);border-bottom-color:var(--teal)}
+.nav-btn:hover:not(.active){color:var(--ink);background:#f8fafc}
+
+/* ---- LAYOUT ---- */
+.page{max-width:900px;margin:0 auto;padding:1.75rem 1.25rem 4rem}
+.section{display:none}
+.section.active{display:block}
+
+/* ---- UNIT HEADER ---- */
+.unit-hero{border-radius:14px;padding:1.75rem 2rem;margin-bottom:1.75rem;position:relative;overflow:hidden}
+.unit-hero::after{content:attr(data-num);position:absolute;right:1.5rem;top:50%;transform:translateY(-50%);font-size:6rem;font-weight:800;opacity:.1;line-height:1;pointer-events:none}
+.unit-hero h2{font-family:'Noto Serif',serif;font-size:1.6rem;font-weight:600;color:#fff;margin-bottom:.4rem}
+.unit-hero p{font-size:.9rem;color:rgba(255,255,255,.8);line-height:1.5}
+.uh-1{background:linear-gradient(135deg,#0c4a6e,#0e7490)}
+.uh-2{background:linear-gradient(135deg,#7f1d1d,#dc2626)}
+.uh-3{background:linear-gradient(135deg,#4c1d95,#7c3aed)}
+.uh-4{background:linear-gradient(135deg,#14532d,#16a34a)}
+
+/* ---- CARDS ---- */
+.card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:1.25rem 1.5rem;margin-bottom:1rem}
+.card-teal{border-left:4px solid var(--teal);background:var(--teal-light)}
+.card-amber{border-left:4px solid var(--amber);background:var(--amber-light)}
+.card-red{border-left:4px solid var(--red);background:var(--red-light)}
+.card-blue{border-left:4px solid var(--blue);background:var(--blue-light)}
+.card-green{border-left:4px solid var(--green);background:var(--green-light)}
+.card-purple{border-left:4px solid var(--purple);background:var(--purple-light)}
+.card-slate{border-left:4px solid var(--slate);background:#f8fafc}
+
+/* ---- TYPOGRAPHY ---- */
+.sec-title{font-family:'Noto Serif',serif;font-size:1.2rem;font-weight:600;color:var(--teal);margin-bottom:.75rem;padding-bottom:.5rem;border-bottom:1px solid var(--teal-mid)}
+.sec-title.red{color:var(--red);border-color:var(--red-mid)}
+.sec-title.purple{color:var(--purple);border-color:var(--purple-mid)}
+.sec-title.green{color:var(--green);border-color:var(--green-mid)}
+.sec-title.amber{color:var(--amber);border-color:var(--amber-mid)}
+h4{font-size:.95rem;font-weight:700;color:var(--ink);margin-bottom:.4rem}
+p{margin-bottom:.5rem}
+p:last-child{margin-bottom:0}
+
+/* ---- QURAN & HADITS ---- */
+.ayat{font-family:'Noto Serif',serif;font-style:italic;color:#1e3a5f;background:var(--blue-light);border-left:3px solid #3b82f6;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;margin:.65rem 0;font-size:.92rem;line-height:1.7}
+.ayat .ref{display:block;font-style:normal;font-size:.78rem;color:var(--muted);margin-top:.35rem;font-family:'Nunito',sans-serif}
+.hadits{font-family:'Noto Serif',serif;color:#14532d;background:var(--green-light);border-left:3px solid #22c55e;padding:.85rem 1.1rem;border-radius:0 10px 10px 0;margin:.65rem 0;font-size:.9rem;line-height:1.7}
+.hadits .ref{display:block;font-style:normal;font-size:.78rem;color:var(--muted);margin-top:.35rem;font-family:'Nunito',sans-serif}
+.hadits-label{font-style:normal;font-weight:700;color:#15803d;display:block;margin-bottom:.2rem;font-family:'Nunito',sans-serif;font-size:.85rem}
+
+/* ---- BENEFIT BOX ---- */
+.benefit{background:#fefce8;border:1px solid #fde68a;border-radius:10px;padding:1rem 1.25rem;margin:.85rem 0}
+.benefit-title{font-weight:700;color:#92400e;font-size:.88rem;margin-bottom:.4rem;display:flex;align-items:center;gap:.4rem}
+.benefit-title::before{content:'💡';font-size:1rem}
+.benefit p{font-size:.875rem;color:#78350f}
+
+/* ---- NUMBERED ITEMS ---- */
+.num-item{display:flex;gap:.85rem;align-items:flex-start;padding:.75rem 0;border-bottom:1px solid var(--border)}
+.num-item:last-child{border-bottom:none}
+.num-badge{display:flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:50%;font-weight:700;font-size:.82rem;flex-shrink:0;margin-top:.15rem}
+.nb-teal{background:var(--teal);color:#fff}
+.nb-amber{background:var(--amber);color:#fff}
+.nb-red{background:var(--red);color:#fff}
+.nb-blue{background:var(--blue);color:#fff}
+.nb-green{background:var(--green);color:#fff}
+.nb-purple{background:var(--purple);color:#fff}
+.nb-slate{background:var(--slate);color:#fff}
+.num-item-content{flex:1;font-size:.9rem;line-height:1.65}
+.num-item-content strong{font-weight:700;display:block;margin-bottom:.2rem;color:var(--ink)}
+
+/* ---- TAGS ---- */
+.tag{display:inline-block;font-size:.72rem;font-weight:700;padding:3px 10px;border-radius:20px;margin-bottom:.6rem;letter-spacing:.03em;text-transform:uppercase}
+.tag-teal{background:var(--teal-mid);color:#0f766e}
+.tag-amber{background:var(--amber-mid);color:#92400e}
+.tag-red{background:var(--red-mid);color:#991b1b}
+.tag-blue{background:var(--blue-mid);color:#1e40af}
+.tag-green{background:var(--green-mid);color:#166534}
+.tag-purple{background:var(--purple-mid);color:#5b21b6}
+.tag-slate{background:#e2e8f0;color:#334155}
+
+/* ---- PILLS GRID ---- */
+.pill-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.6rem;margin:.75rem 0}
+.pill{padding:.65rem .9rem;border-radius:8px;font-size:.84rem;font-weight:600;text-align:center;line-height:1.35}
+.pill-teal{background:var(--teal-mid);color:#0f766e;border:1px solid #99f6e4}
+.pill-amber{background:var(--amber-mid);color:#92400e;border:1px solid #fcd34d}
+.pill-blue{background:var(--blue-mid);color:#1e40af;border:1px solid #bfdbfe}
+.pill-red{background:var(--red-mid);color:#991b1b;border:1px solid #fecaca}
+.pill-green{background:var(--green-mid);color:#166534;border:1px solid #bbf7d0}
+.pill-purple{background:var(--purple-mid);color:#5b21b6;border:1px solid #ddd6fe}
+.pill-slate{background:#e2e8f0;color:#334155;border:1px solid #cbd5e1}
+
+/* ---- 2-COL GRID ---- */
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.85rem;margin:.75rem 0}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:.75rem;margin:.75rem 0}
+
+/* ---- DIVIDER ---- */
+.divider{height:1px;background:var(--border);margin:1rem 0}
+
+/* ---- ACTIVITY SECTION ---- */
+.activity-wrap{background:#f1f5f9;border-radius:12px;padding:1.25rem 1.5rem;margin-top:1.25rem}
+.activity-wrap .sec-title{border-color:#cbd5e1;color:var(--slate)}
+.activity-item{background:#fff;border:1px solid var(--border);border-radius:8px;padding:.9rem 1.1rem;margin-bottom:.65rem;font-size:.875rem;display:flex;gap:.75rem;align-items:flex-start}
+.activity-item .q-num{width:26px;height:26px;border-radius:50%;background:var(--slate);color:#fff;font-size:.75rem;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:.1rem}
+.answer-badge{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;font-size:1rem;font-weight:700;margin-left:auto;flex-shrink:0}
+.ans-correct{background:#dcfce7;color:#16a34a}
+.ans-wrong{background:#fee2e2;color:#dc2626}
+
+/* ---- PREFACE ---- */
+.preface-box{background:#fff;border:1px solid var(--border);border-radius:14px;padding:2rem;margin-bottom:1.25rem}
+.preface-box p{font-size:.93rem;line-height:1.85;color:var(--ink);margin-bottom:.85rem}
+
+/* ---- SUMMARY BOX ---- */
+.summary-units{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.85rem;margin:1.25rem 0}
+.summary-unit{background:#fff;border:1px solid var(--border);border-radius:12px;padding:1.1rem;text-align:center}
+.summary-unit .u-icon{font-size:2rem;margin-bottom:.5rem}
+.summary-unit .u-num{font-size:.75rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:.25rem}
+.summary-unit .u-title{font-size:.88rem;font-weight:600;color:var(--ink);line-height:1.4}
+
+/* ---- INDEX TABLE ---- */
+.idx-table{width:100%;border-collapse:collapse;font-size:.875rem}
+.idx-table th{background:var(--teal);color:#fff;padding:.6rem .85rem;text-align:left;font-weight:600}
+.idx-table td{padding:.6rem .85rem;border-bottom:1px solid var(--border)}
+.idx-table tr:nth-child(even) td{background:#f8fafc}
+.idx-table tr:hover td{background:#f0fdfa}
+.week-badge{display:inline-block;font-size:.72rem;font-weight:700;padding:2px 9px;border-radius:20px;background:var(--teal-mid);color:var(--teal)}
+
+/* ---- RESPONSIVE ---- */
+@media(max-width:600px){
+.cover h1{font-size:2rem}
+.unit-hero h2{font-size:1.3rem}
+.page{padding:1.25rem .85rem 3rem}
+.card{padding:1rem 1.1rem}
+}
+</style>
+</head>
+<body>
+
+<!-- COVER -->
+<div class="cover">
+  <div class="badge">Seri Zad Academy • Level 1 • Edisi Bahasa Indonesia</div>
+  <h1>Aqidah (1)</h1>
+  <div class="subtitle">Aqidah Islam – Terjemahan Lengkap</div>
+  <div class="meta">Disusun oleh Zad Group · Edisi Pertama 1446 H / 2024 M · ISBN: 978-603-9218-951</div>
+</div>
+
+<!-- NAVIGATION -->
+<div class="nav-wrap">
+  <div class="nav-scroll">
+    <button class="nav-btn active" onclick="show('pengantar',this)">📋 Pendahuluan</button>
+    <button class="nav-btn" onclick="show('unit1',this)">Unit 1: Pengantar Aqidah</button>
+    <button class="nav-btn" onclick="show('unit2',this)">Unit 2: Penyimpangan Aqidah</button>
+    <button class="nav-btn" onclick="show('unit3',this)">Unit 3: Tauhid</button>
+    <button class="nav-btn" onclick="show('unit4',this)">Unit 4: Pilar-pilar Tauhid</button>
+    <button class="nav-btn" onclick="show('refs',this)">📚 Referensi & Indeks</button>
+  </div>
+</div>
+
+<div class="page">
+
+<!-- ============================================================ -->
+<!--  PENGANTAR                                                    -->
+<!-- ============================================================ -->
+<div id="pengantar" class="section active">
+
+  <div class="preface-box">
+    <span class="tag tag-teal">Kata Pengantar</span>
+    <p>Segala puji bagi Allah, Tuhan semesta alam, shalawat dan salam semoga tercurah kepada nabi dan rasul yang paling mulia, Nabi kita Muhammad ﷺ, beserta seluruh keluarga dan para sahabatnya. Amma ba'du:</p>
+    <p>Ilmu agama Islam merupakan salah satu kebutuhan terpenting yang dibutuhkan setiap Muslim dalam kehidupannya. Seluruh umat Islam, dalam upayanya membangun kembali peradaban Islam, sangat membutuhkan ilmu ini. Karena itulah nash-nash agama menunjukkan betapa pentingnya ilmu Islam dan para pembawanya. Allah ﷻ berfirman:</p>
+    <div class="ayat">«Allah menyaksikan bahwa tidak ada tuhan (yang berhak disembah) selain Dia. Yang menegakkan keadilan. Para malaikat dan orang-orang yang berilmu (juga menyaksikan yang demikian itu). Tidak ada tuhan (yang berhak disembah) selain Dia, Yang Mahaperkasa, Mahabijaksana.»<span class="ref">(QS. Ali Imran: 18)</span></div>
+    <p>Asy-Syaukani رحمه الله berkata: yang dimaksud dengan "orang-orang yang berilmu" di sini adalah para ulama Al-Quran dan Sunnah. Dan Allah ﷻ berfirman:</p>
+    <div class="ayat">«…dan katakanlah: Ya Tuhanku, tambahkanlah ilmu kepadaku.»<span class="ref">(QS. Thaha: 114)</span></div>
+    <div class="hadits"><span class="hadits-label">Hadits Nabi ﷺ:</span>«Barangsiapa menempuh suatu jalan untuk mencari ilmu, maka Allah akan memudahkan baginya jalan menuju surga.»<span class="ref">HR. Muslim</span></div>
+    <p>Seri buku teks ini hadir untuk melayani masyarakat, dengan tujuan menyampaikan ilmu Islam melalui berbagai metode dan menjadikannya mudah diakses bagi siapa pun yang mencarinya. Kami berharap buku ini menjadi sumber ilmu tambahan bagi program-program akademik, serta menjadi penopang dan bantuan bagi mereka yang ingin memperdalam ilmu dan pendidikan Islam, sebagai upaya untuk mewujudkan tujuan utama, yaitu menyebarkan dan menanamkan ilmu Islam yang shahih berdasarkan landasan akademis yang kokoh sesuai dengan keyakinan yang benar, bersumber dari Kitabullah dan Sunnah Nabi-Nya ﷺ, dalam gaya yang modern dan mudah dipahami. Kami memohon kepada Allah ﷻ agar menganugerahkan kepada kita semua ilmu yang bermanfaat, memberikan kita taufik untuk beramal shalih, membimbing kita, dan menolong kita untuk ikhlas dalam setiap upaya kita.</p>
+  </div>
+
+  <div class="card">
+    <span class="tag tag-teal">Gambaran Umum Modul</span>
+    <h4 style="color:var(--teal);margin-bottom:1rem">Aqidah (1) – Islam Creed: Isi dan Susunan</h4>
+    <div class="summary-units">
+      <div class="summary-unit">
+        <div class="u-icon">📖</div>
+        <div class="u-num">Unit 1 · Hal. 11</div>
+        <div class="u-title">Pengantar Aqidah yang Shahih</div>
+      </div>
+      <div class="summary-unit">
+        <div class="u-icon">⚠️</div>
+        <div class="u-num">Unit 2 · Hal. 33</div>
+        <div class="u-title">Penyimpangan dari Aqidah yang Shahih</div>
+      </div>
+      <div class="summary-unit">
+        <div class="u-icon">☝️</div>
+        <div class="u-num">Unit 3 · Hal. 49</div>
+        <div class="u-title">Tauhid</div>
+      </div>
+      <div class="summary-unit">
+        <div class="u-icon">🏛️</div>
+        <div class="u-num">Unit 4 · Hal. 63</div>
+        <div class="u-title">Pilar-pilar Tauhid</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!--  UNIT 1                                                       -->
+<!-- ============================================================ -->
+<div id="unit1" class="section">
+
+  <div class="unit-hero uh-1" data-num="1">
+    <h2>Pengantar Aqidah yang Shahih</h2>
+    <p>Makna dan pentingnya aqidah yang shahih · Sumber-sumber aqidah · Prinsip-prinsip Ahlus Sunnah dalam verifikasi aqidah</p>
+  </div>
+
+  <!-- TOPIK 1: MAKNA & PENTINGNYA -->
+  <div class="card card-teal">
+    <span class="tag tag-teal">Bagian Pertama</span>
+    <div class="sec-title">Makna dan Pentingnya Aqidah yang Shahih</div>
+
+    <h4>A. Definisi Aqidah Secara Bahasa</h4>
+    <p style="font-size:.9rem">Kata <em>"aqidah"</em> berasal dari kata <em>al-aqd</em> (العقد), yang berarti: mengikat, mengencangkan, dan menarik dengan kuat. <em>Al-aqd</em> (mengikat) merupakan lawan dari <em>al-hall</em> (membuka). Dari akar kata yang sama muncul kata <em>uqdah</em>, seperti dalam ungkapan <em>uqdat al-yamin</em> (sumpah yang mengikat) dan <em>uqdat an-nikah</em> (ikatan pernikahan). Allah ﷻ berfirman:</p>
+    <div class="ayat">«Allah tidak menghukum kamu disebabkan sumpah-sumpahmu yang tidak disengaja, tetapi Dia menghukum kamu disebabkan apa yang telah kamu sengaja (dalam bersumpah)…»<span class="ref">(QS. Al-Maidah: 89)</span></div>
+
+    <div class="benefit">
+      <div class="benefit-title">Sinonim Aqidah</div>
+      <p>Ada beberapa nama lain untuk aqidah Islam (keyakinan, doktrin, akidah) yang disebutkan oleh para salaf (generasi terdahulu). Nama-nama tersebut antara lain: <strong>Tauhid, Sunnah, Usul Ad-Diin</strong> (pokok-pokok agama), <strong>Al-Fiqh Al-Akbar</strong> (fikih terbesar), <strong>Syariah</strong>, dan <strong>Iman</strong>.</p>
+    </div>
+
+    <h4>B. Definisi Aqidah Secara Istilah Syari</h4>
+    <p style="font-size:.9rem">Aqidah adalah <em>"keyakinan yang tidak mengandung keraguan sedikit pun bagi orang yang meyakininya."</em> Ada pula yang mendefinisikannya sebagai: <em>"Permasalahan-permasalahan yang sudah pasti dan definitif, yang seseorang pegang teguh dalam hatinya sebagai kebenaran dan tidak meragukannya."</em></p>
+    <p style="font-size:.9rem"><strong>Kata "Shahih"</strong> berarti bebas dari seluruh cacat dan kesalahan.</p>
+
+    <div class="divider"></div>
+    <h4>C. Definisi Aqidah yang Shahih</h4>
+    <p style="font-size:.9rem">Aqidah yang shahih adalah keyakinan yang kokoh kepada Allah dan segala hal yang wajib diyakini tentang-Nya, berupa: ketuhanan-Nya (uluhiyyah), kekuasaan-Nya sebagai Rabb (rububiyyah), serta nama-nama dan sifat-sifat-Nya. Aqidah yang shahih juga mencakup iman kepada para malaikat-Nya, kitab-kitab-Nya, para rasul-Nya, Hari Akhir, dan qadar (takdir) yang baik maupun yang buruk; beserta segala hal yang disebutkan dalam nash-nash agama yang shahih tentang pokok-pokok agama, perkara-perkara gaib, dan segala berita tentang yang gaib.</p>
+    <p style="font-size:.9rem">Wajib bagi seseorang untuk meyakininya dalam hatinya dengan cara yang pasti, tanpa keraguan atau ketidakpastian. Allah ﷻ berfirman:</p>
+    <div class="ayat">«Sesungguhnya orang-orang yang beriman itu hanyalah orang-orang yang percaya kepada Allah dan Rasul-Nya, kemudian mereka tidak ragu-ragu…»<span class="ref">(QS. Al-Hujurat: 15)</span></div>
+    <p style="font-size:.875rem;color:var(--muted)">Artinya: mereka tidak pernah meragukan iman mereka.</p>
+  </div>
+
+  <!-- DALIL-DALIL -->
+  <div class="card">
+    <span class="tag tag-blue">Dalil-dalil</span>
+    <div class="sec-title">Dalil-dalil tentang Aqidah yang Shahih</div>
+    <div class="num-item">
+      <div class="num-badge nb-blue">1</div>
+      <div class="num-item-content">
+        <div class="ayat">«Kebajikan itu bukanlah menghadapkan wajahmu ke arah timur dan barat, tetapi sesungguhnya kebajikan itu ialah orang yang beriman kepada Allah, Hari Kemudian, malaikat-malaikat, kitab-kitab, nabi-nabi…»<span class="ref">(QS. Al-Baqarah: 177)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-blue">2</div>
+      <div class="num-item-content">
+        <div class="ayat">«Rasul (Muhammad) beriman kepada apa yang diturunkan kepadanya (Al-Qur'an) dari Tuhannya, demikian pula orang-orang yang beriman. Semua beriman kepada Allah, malaikat-malaikat-Nya, kitab-kitab-Nya, dan rasul-rasul-Nya.»<span class="ref">(QS. Al-Baqarah: 285)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-blue">3</div>
+      <div class="num-item-content">
+        <div class="hadits"><span class="hadits-label">Hadits Umar bin Khattab رضي الله عنه:</span>Ketika Malaikat Jibril عليه السلام bertanya kepada Nabi ﷺ tentang iman, beliau menjawab: «Iman adalah engkau beriman kepada Allah, para malaikat-Nya, kitab-kitab-Nya, para rasul-Nya, dan Hari Akhir, serta engkau beriman kepada takdir yang baik dan yang buruk.»<span class="ref">HR. Muslim</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PENTINGNYA AQIDAH -->
+  <div class="card card-amber">
+    <span class="tag tag-amber">Kepentingan Aqidah</span>
+    <div class="sec-title amber">Pentingnya Aqidah yang Shahih</div>
+    <p style="font-size:.875rem;color:var(--muted);margin-bottom:.75rem">Pentingnya aqidah yang shahih tampak dari hal-hal berikut:</p>
+
+    <div class="num-item">
+      <div class="num-badge nb-amber">1</div>
+      <div class="num-item-content">
+        <strong>Syarat diterimanya amal ibadah oleh Allah ﷻ</strong>
+        <p>Aqidah yang shahih adalah sarana – setelah rahmat Allah ﷻ – untuk meraih keselamatan di akhirat dan masuk ke dalam surga. Allah ﷻ berfirman:</p>
+        <div class="ayat">«Maka barangsiapa mengharap perjumpaan dengan Tuhannya, maka hendaklah dia mengerjakan kebajikan dan janganlah dia mempersekutukan dengan sesuatu pun dalam beribadah kepada Tuhannya.»<span class="ref">(QS. Al-Kahfi: 110)</span></div>
+        <div class="ayat">«Allah telah menjanjikan kepada orang-orang yang beriman, laki-laki dan perempuan, (mendapat) surga yang mengalir di bawahnya sungai-sungai…»<span class="ref">(QS. At-Taubah: 72)</span></div>
+        <p>Sebaliknya, amal tidak akan diterima oleh Allah ﷻ jika pelakunya memiliki aqidah yang rusak. Allah ﷻ berfirman:</p>
+        <div class="ayat">«…Dan barangsiapa yang mengingkari keimanan, maka sungguh, sia-sialah amal mereka, dan di akhirat dia termasuk orang yang rugi.»<span class="ref">(QS. Al-Maidah: 5)</span></div>
+        <div class="ayat">«Dan sungguh telah diwahyukan kepadamu dan kepada (nabi-nabi) yang sebelummu: Sungguh jika engkau mempersekutukan (Allah), niscaya akan hapuslah amalmu dan tentulah kamu termasuk orang yang rugi.»<span class="ref">(QS. Az-Zumar: 65)</span></div>
+      </div>
+    </div>
+
+    <div class="num-item">
+      <div class="num-badge nb-amber">2</div>
+      <div class="num-item-content">
+        <strong>Merupakan inti risalah seluruh para rasul عليهم السلام</strong>
+        <p>Tidak ada satu pun rasul yang Allah utus kepada umatnya, kecuali hal pertama yang ia dakwahkan adalah keyakinan yang shahih ini. Allah ﷻ berfirman:</p>
+        <div class="ayat">«Dan sungguh, Kami telah mengutus seorang rasul untuk setiap umat (untuk menyerukan): "Sembahlah Allah dan jauhilah tagut"…»<span class="ref">(QS. An-Nahl: 36)</span></div>
+        <div class="benefit">
+          <div class="benefit-title">Apa itu Tagut?</div>
+          <p>Tagut adalah segala sesuatu dan siapa pun yang disembah selain Allah dan ia ridha dengan hal itu.</p>
+        </div>
+        <div class="ayat">«Dan Kami tidak mengutus seorang rasul pun sebelum engkau (Muhammad), melainkan Kami wahyukan kepadanya bahwa tidak ada tuhan (yang berhak disembah) selain Aku, maka sembahlah Aku.»<span class="ref">(QS. Al-Anbiya': 25)</span></div>
+      </div>
+    </div>
+
+    <div class="num-item">
+      <div class="num-badge nb-amber">3</div>
+      <div class="num-item-content">
+        <strong>Aqidah adalah kebutuhan pokok manusia; lebih pokok dari udara dan air</strong>
+        <p>Tanpanya, manusia tidak bisa menemukan jawaban yang benar dan shahih atas pertanyaan-pertanyaan terbesar yang diajukan oleh umat manusia:</p>
+        <div class="pill-grid">
+          <div class="pill pill-amber">Dari mana aku berasal?</div>
+          <div class="pill pill-amber">Mengapa aku diciptakan?</div>
+          <div class="pill pill-amber">Ke mana aku setelah mati?</div>
+        </div>
+        <p>Apa akibat dari tidak adanya jawaban atas pertanyaan-pertanyaan ini? Itulah yang kita saksikan hari ini berupa kesengsaraan, penderitaan, penyakit jiwa yang meluas, dan tingginya angka bunuh diri, bahkan di negara-negara kaya yang mengklaim sebagai negara maju dan beradab, seperti yang terjadi di Swedia, Denmark, dan negara-negara lainnya.</p>
+        <p>Hanya aqidah yang shahih yang mampu menjawab pertanyaan-pertanyaan penting ini dan pertanyaan-pertanyaan lain yang menjadi teka-teki bagi banyak orang, sehingga hati mereka dipenuhi dengan keyakinan, ketenangan, kemudahan, kepastian, dan keimanan.</p>
+      </div>
+    </div>
+
+    <div class="num-item">
+      <div class="num-badge nb-amber">4</div>
+      <div class="num-item-content">
+        <strong>Sarana mendapatkan rasa aman dan petunjuk di dunia dan akhirat</strong>
+        <div class="ayat">«Orang-orang yang beriman dan tidak mencampuri keimanan mereka dengan kezaliman (syirik), mereka itulah yang mendapat rasa aman dan mereka mendapat petunjuk.»<span class="ref">(QS. Al-An'am: 82)</span></div>
+        <p>Yang dimaksud <em>"tidak mencampuri keyakinan mereka dengan kezaliman"</em> adalah: mereka tidak mencampuri iman mereka dengan syirik.</p>
+        <p>Maka kurangnya rasa aman, meluasnya kejahatan, kerusakan, kekacauan, dan pembunuhan yang terjadi di dunia Islam pada umumnya, dan di dunia Arab pada khususnya – itu semua merupakan akibat dari tidak berpegang teguhnya masyarakat pada aqidah yang shahih.</p>
+      </div>
+    </div>
+
+    <div class="num-item">
+      <div class="num-badge nb-amber">5</div>
+      <div class="num-item-content">
+        <strong>Sarana turunnya keberkahan yang melimpah dari langit dan bumi</strong>
+        <div class="ayat">«Dan sekiranya penduduk negeri-negeri itu beriman dan bertakwa, pasti Kami akan melimpahkan kepada mereka berkah dari langit dan bumi…»<span class="ref">(QS. Al-A'raf: 96)</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CIRI-CIRI AQIDAH -->
+  <div class="card card-green">
+    <span class="tag tag-green">Ciri-ciri</span>
+    <div class="sec-title green">Ciri-ciri Pembeda Aqidah yang Shahih</div>
+    <p style="font-size:.875rem;margin-bottom:.85rem">Aqidah Islam yang shahih dibedakan dari keyakinan agama-agama batil dan kelompok-kelompok yang mengada-adakan bid'ah melalui beberapa ciri khas yang membuatnya lebih dapat diterima oleh manusia, di antaranya:</p>
+
+    <div class="num-item">
+      <div class="num-badge nb-green">1</div>
+      <div class="num-item-content">
+        <strong>Jelas (Wadhih)</strong>
+        <p>Keyakinan yang jelas dan lugas, tidak ada kerumitan di dalamnya. Tidak ada hal yang misterius, dan tidak ada aspek darinya yang hanya dikhususkan untuk para rohaniwan saja.</p>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-green">2</div>
+      <div class="num-item-content">
+        <strong>Sesuai Akal Sehat dan Fitrah Manusia</strong>
+        <p>Keyakinan yang masuk akal dan selaras dengan fitrah manusia yang sehat, tidak bertentangan dengannya.</p>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-green">3</div>
+      <div class="num-item-content">
+        <strong>Tidak Berubah (Tsabit)</strong>
+        <p>Keyakinan yang tidak berubah dan berkembang seiring berlalunya waktu. Tidak ada ruang untuk menambah atau mengurangi sesuatu di dalamnya, dan tidak dapat diubah atau diselewengkan. Adapun keyakinan-keyakinan lain, telah ditambahi dan dikurangi karena tunduk kepada hawa nafsu para penguasa dan rahib.</p>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-green">4</div>
+      <div class="num-item-content">
+        <strong>Berdasarkan Dalil (Mustanad)</strong>
+        <p>Menghasilkan bukti dan dalil yang jelas untuk setiap masalah. Allah ﷻ berfirman:</p>
+        <div class="ayat">«Katakanlah: "Milik Allah-lah hujjah yang kuat (yang tidak terbantahkan)"…»<span class="ref">(QS. Al-An'am: 149)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-green">5</div>
+      <div class="num-item-content">
+        <strong>Moderat (Wasathiyyah)</strong>
+        <p>Keyakinan yang moderat yang tidak condong ke salah satu ekstrem, tidak ada sikap berlebihan (ghuluw) maupun meremehkan (jafa').</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SUMBER-SUMBER AQIDAH -->
+  <div class="card">
+    <span class="tag tag-teal">Sumber-sumber</span>
+    <div class="sec-title">Sumber-sumber Aqidah yang Shahih</div>
+    <p style="font-size:.9rem;margin-bottom:1rem">Sebelum membahas sumber-sumber dan dalil-dalilnya, perlu diketahui terlebih dahulu sebuah fakta Islam yang pasti, yaitu: aqidah yang shahih (iman kepada keesaan Allah) adalah keyakinan yang sesuai dengan fitrah manusia – artinya prinsip bahwa seluruh manusia secara naluriah meyakini aqidah ini, dan sejak Allah menciptakan manusia dan mengadakannya di bumi ini, mereka telah memegang teguh keyakinan ini dalam hati mereka. Maknanya adalah mengenal Allah ﷻ, beriman kepada keesaan-Nya, berpaling kepada-Nya di saat kesulitan, dan mencintai-Nya; artinya manusia memiliki kecenderungan bawaan untuk menerima dan memilih kebenaran. Hal ini didukung oleh banyak sekali dalil, di antaranya:</p>
+  </div>
+
+  <!-- Dalil Fitrah -->
+  <div class="card card-blue">
+    <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:.85rem">
+      <div class="num-badge nb-blue" style="width:36px;height:36px;font-size:1.1rem">1</div>
+      <div><div class="ayat" style="margin:0;font-size:.88rem">«Maka hadapkanlah wajahmu dengan lurus kepada agama (Islam); (sesuai) fitrah Allah disebabkan Dia telah menciptakan manusia menurut (fitrah) itu. Tidak ada perubahan pada ciptaan Allah. Itulah agama yang lurus, tetapi kebanyakan manusia tidak mengetahui.»<span class="ref">(QS. Ar-Rum: 30)</span></div></div>
+    </div>
+    <p style="font-size:.875rem"><em>Hanifiyyah</em> (yang diterjemahkan sebagai "condong kepada kebenaran") adalah Islam beserta pilar-pilarnya, sebagaimana yang dijelaskan oleh para ulama terkemuka generasi terdahulu رحمهم الله.</p>
+    <p style="font-size:.875rem;font-weight:600;color:var(--blue)">Fitrah adalah naluri manusia yang sehat yang diciptakan dalam diri manusia dan memiliki kemampuan untuk menerima agama yang benar.</p>
+  </div>
+
+  <div class="card card-blue">
+    <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:.75rem">
+      <div class="num-badge nb-blue" style="width:36px;height:36px;font-size:1.1rem">2</div>
+      <div style="font-weight:700;font-size:.9rem">Hadits Abu Hurairah رضي الله عنه</div>
+    </div>
+    <div class="hadits"><span class="hadits-label">Diriwayatkan oleh Al-Bukhari dan Muslim:</span>Nabi ﷺ bersabda: «Setiap bayi yang dilahirkan, dilahirkan dalam keadaan fitrah. Kemudian kedua orang tuanya menjadikannya Yahudi, Nasrani, atau Majusi – sebagaimana seekor hewan melahirkan anaknya yang sempurna. Apakah kamu melihat ada yang cacat di antara mereka?»<span class="ref">Menurut riwayat lain: «Tidak ada seorang anak pun yang lahir kecuali ia lahir dalam keadaan fitrah. Kemudian kedua orang tuanya menjadikannya Yahudi, Nasrani, atau Majusi – sebagaimana hewan melahirkan hewan dengan anggota tubuh yang sempurna. Apakah kamu melihat di antaranya ada yang terpotong hidungnya?»</span></div>
+    <p style="font-size:.875rem">Kata yang diterjemahkan <em>"sempurna"</em> mengacu pada yang lengkap dan memiliki semua anggota tubuhnya. Kata yang diterjemahkan <em>"cacat"</em> mengacu pada yang kehilangan anggota tubuh.</p>
+  </div>
+
+  <div class="card card-blue">
+    <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:.75rem">
+      <div class="num-badge nb-blue" style="width:36px;height:36px;font-size:1.1rem">3</div>
+      <div style="font-weight:700;font-size:.9rem">Riwayat Muslim dari Abu Hurairah رضي الله عنه</div>
+    </div>
+    <p style="font-size:.875rem">Dalam dua versi berbeda yang dengan jelas menyatakan bahwa fitrah adalah agama Islam:</p>
+    <div class="hadits">a. «Tidak ada bayi yang lahir kecuali ia adalah seorang mukmin dalam agama ini.»</div>
+    <div class="hadits">b. «Tidak ada bayi yang lahir kecuali ia adalah seorang mukmin dalam agama ini, hingga ia mulai berbicara.»</div>
+  </div>
+
+  <div class="card card-blue">
+    <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:.75rem">
+      <div class="num-badge nb-blue" style="width:36px;height:36px;font-size:1.1rem">4</div>
+      <div style="font-weight:700;font-size:.9rem">Hadits Iyadh bin Himar Al-Mujasyi'i رضي الله عنه</div>
+    </div>
+    <div class="hadits"><span class="hadits-label">HR. Muslim:</span>Bahwa Rasulullah ﷺ bersabda dalam khutbahnya: «[Allah berfirman:] 'Dan Aku ciptakan hamba-hamba-Ku dengan kecenderungan kepada kebenaran (hunafa'), semuanya; namun setan-setan mendatangi mereka dan menyesatkan mereka dari agama mereka, mengharamkan bagi mereka apa yang telah Aku halalkan bagi mereka, dan memerintahkan mereka untuk menyekutukan-Ku dengan sesuatu yang tidak ada keterangan apapun tentangnya dari-Ku.'»<span class="ref">Kata <em>hunafa</em> (bentuk jamak dari <em>hanif</em>), yang diterjemahkan di sini sebagai "dengan kecenderungan kepada kebenaran", mengacu pada orang yang berpaling dari semua agama lain dan condong kepada agama Islam yang shahih.</span></div>
+  </div>
+
+  <!-- SUMBER 1: AL-QURAN -->
+  <div class="card">
+    <span class="tag tag-teal">Sumber Pertama</span>
+    <div class="sec-title">Al-Quran Al-Karim</div>
+    <p style="font-size:.9rem">Al-Quran Al-Karim adalah nama bagi kalam Allah yang mukjiz, yang diturunkan kepada hamba dan utusan-Nya Muhammad ﷺ, yang tentangnya Allah ﷻ berfirman:</p>
+    <div class="ayat">«(Al-Qur'an) ini diturunkan oleh (Malaikat) yang dipercaya (Jibril), ke dalam hatimu (Muhammad) agar engkau termasuk orang yang memberi peringatan, dengan bahasa Arab yang jelas.»<span class="ref">(QS. Asy-Syu'ara: 193-195)</span></div>
+    <p style="font-size:.9rem;font-weight:600;margin-top:.75rem">Banyak dalil yang menunjukkan bahwa Al-Quran merupakan bukti yang darinya kita wajib mengambil aqidah kita. Di antara dalil-dalil tersebut adalah:</p>
+
+    <div class="num-item">
+      <div class="num-badge nb-teal">1</div>
+      <div class="num-item-content">
+        <p>Al-Quran memerintahkan kita untuk mengikuti perintah-perintahnya dan melarang kita mengikuti selainnya.</p>
+        <div class="ayat">«Ikutilah apa yang diturunkan kepadamu dari Tuhanmu dan janganlah kamu mengikuti pemimpin-pemimpin selain-Nya. Sedikit sekali kamu mengambil pelajaran.»<span class="ref">(QS. Al-A'raf: 3)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-teal">2</div>
+      <div class="num-item-content">
+        <p>Segala sesuatu di dalamnya adalah benar dan shahih. Allah ﷻ berfirman:</p>
+        <div class="ayat">«Yang demikian itu karena Allah telah menurunkan Kitab (Al-Qur'an) dengan membawa kebenaran…»<span class="ref">(QS. Al-Baqarah: 176)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-teal">3</div>
+      <div class="num-item-content">
+        <p>Al-Quran terjaga dari pemalsuan dan pengubahan. Allah ﷻ berfirman:</p>
+        <div class="ayat">«Sesungguhnya Kamilah yang menurunkan Al-Qur'an, dan pasti Kami (pula) yang memeliharanya.»<span class="ref">(QS. Al-Hijr: 9)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-teal">4</div>
+      <div class="num-item-content">
+        <p>Al-Quran adalah hakim yang di dalamnya terdapat penjelasan dan klarifikasi. Allah ﷻ berfirman:</p>
+        <div class="ayat">«…Apakah (patut) aku mencari hakim selain Allah, padahal Dialah yang menurunkan Kitab (Al-Qur'an) kepadamu secara rinci?»<span class="ref">(QS. Al-An'am: 114)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-teal">5</div>
+      <div class="num-item-content">
+        <p>Al-Quran adalah tolak ukur yang membedakan antara yang benar dan yang batil.</p>
+        <div class="ayat">«Maha Suci Allah yang telah menurunkan Al-Furqan (Al-Qur'an) kepada hamba-Nya (Muhammad) agar dia menjadi pemberi peringatan kepada seluruh alam.»<span class="ref">(QS. Al-Furqan: 1)</span></div>
+        <p style="font-size:.875rem"><strong>Al-Furqan</strong> adalah Al-Quran, karena dengannya Allah ﷻ membedakan (farraqa) antara yang benar dan yang batil.</p>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-teal">6</div>
+      <div class="num-item-content">
+        <p>Allah memerintahkan kita untuk merujuk kepadanya dalam setiap perselisihan atau konflik. Allah ﷻ berfirman:</p>
+        <div class="ayat">«…Kemudian jika kamu berselisih tentang sesuatu, maka kembalikanlah kepada Allah (Al-Qur'an) dan Rasul (Sunnahnya), jika kamu beriman kepada Allah dan hari kemudian. Yang demikian itu, lebih utama (bagimu) dan lebih baik akibatnya.»<span class="ref">(QS. An-Nisa': 59)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-teal">7</div>
+      <div class="num-item-content">
+        <p>Al-Quran adalah firman yang pasti yang memisahkan antara yang sungguh-sungguh dan yang main-main.</p>
+        <div class="ayat">«Sesungguhnya (Al-Qur'an) itu adalah firman pemisah (antara yang hak dan yang batil), dan (Al-Qur'an) itu bukanlah senda gurau.»<span class="ref">(QS. At-Thariq: 13-14)</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SUMBER 2: SUNNAH -->
+  <div class="card card-green">
+    <span class="tag tag-green">Sumber Kedua</span>
+    <div class="sec-title green">Sunnah Nabi yang Shahih</div>
+    <p style="font-size:.9rem">Sunnah Nabi yang <em>shahih (sahih)</em> adalah segala sesuatu yang terbukti diriwayatkan dari Nabi ﷺ melalui sanad yang shahih, mencakup: ucapan, perbuatan, atau apa yang beliau tetapkan.</p>
+    <p style="font-size:.9rem;font-weight:600;margin:.75rem 0 .4rem">Banyak teks yang menunjukkan bahwa Sunnah Nabi merupakan bukti, dan aqidah wajib diambil darinya. Di antara teks-teks tersebut adalah:</p>
+
+    <div class="num-item">
+      <div class="num-badge nb-green">1</div>
+      <div class="num-item-content">
+        <div class="ayat">«…Apa yang diberikan Rasul kepadamu maka ambillah; dan apa yang dilarangnya bagimu maka tinggalkanlah…»<span class="ref">(QS. Al-Hasyr: 7)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-green">2</div>
+      <div class="num-item-content">
+        <div class="ayat">«…Taatilah Allah dan taatilah Rasul (Muhammad), jika kamu orang-orang beriman.»<span class="ref">(QS. Al-Anfal: 1)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-green">3</div>
+      <div class="num-item-content">
+        <div class="ayat">«Dan Kami turunkan Adz-Dzikr (Al-Qur'an) kepadamu, agar engkau menerangkan kepada manusia apa yang telah diturunkan kepada mereka dan agar mereka mau berpikir.»<span class="ref">(QS. An-Nahl: 44)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-green">4</div>
+      <div class="num-item-content">
+        <div class="hadits"><span class="hadits-label">Abu Rafi' رضي الله عنه meriwayatkan bahwa Rasulullah ﷺ bersabda:</span>«Sungguh, aku tidak ingin menemukan salah seorang dari kalian yang telah sampai kepadanya sesuatu yang aku perintahkan atau aku larang, kemudian ia berkata: 'Kami tidak tahu apa ini; yang kami pegang hanya Kitabullah dan itu tidak ada di dalamnya.'»<span class="ref">HR. Empat kecuali An-Nasai; dinilai shahih oleh Ibnu Hibban</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-green">5</div>
+      <div class="num-item-content">
+        <div class="hadits"><span class="hadits-label">Diriwayatkan oleh Al-Miqdam bin Ma'di Karib Al-Kindi رضي الله عنه, bahwa Rasulullah ﷺ bersabda:</span>«Ketahuilah, sesungguhnya aku diberi Al-Kitab dan sesuatu yang serupa dengannya; sesungguhnya aku diberi Al-Quran dan sesuatu yang serupa dengannya.»<span class="ref">HR. Ahmad; dinilai shahih oleh Al-Arnauth. "Dan sesuatu yang serupa dengannya" maksudnya adalah Sunnah.</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-green">6</div>
+      <div class="num-item-content">
+        <div class="hadits"><span class="hadits-label">Diriwayatkan dari Al-Irbad bin Sariyah رضي الله عنه bahwa Rasulullah ﷺ bersabda:</span>«Aku wasiatkan kalian agar berpegang teguh kepada sunnahku dan sunnah para khalifah yang lurus lagi mendapat petunjuk sepeninggalku. Berpegang teguhlah dengannya dan gigitlah ia dengan gigi geraham kalian.»<span class="ref">HR. Ahmad dan At-Tirmidzi; dinilai shahih</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-green">7</div>
+      <div class="num-item-content">
+        <p>Ijma' (kesepakatan) ulama juga menyatakan bahwa Sunnah Nabi boleh dijadikan dalil. Imam Asy-Syafi'i berkata: <em>"Aku tidak mengetahui seorang pun dari kalangan Sahabat atau Tabi'in yang mendengar sesuatu tentang Rasulullah ﷺ, kecuali ia menerima riwayatnya, mematuhinya, dan menegaskan bahwa apa yang ia dengar adalah Sunnah."</em></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SUMBER 3: IJMA' -->
+  <div class="card card-purple">
+    <span class="tag tag-purple">Sumber Ketiga</span>
+    <div class="sec-title purple">Ijma' Generasi Salaf yang Shalih</div>
+    <p style="font-size:.9rem">Secara bahasa, kata <em>salaf</em> berarti kelompok terdahulu dan yang telah berlalu. Leluhur seseorang adalah para pendahulunya. Para salaf memiliki beberapa nama, di antaranya:</p>
+
+    <div class="grid3" style="margin:.85rem 0">
+      <div class="pill pill-purple"><strong>Ahlus Sunnah wal Jama'ah</strong><br><small>karena kepatuhan mereka pada Sunnah Nabi ﷺ</small></div>
+      <div class="pill pill-purple"><strong>Firqah Najiyah</strong><br><small>Golongan yang Selamat</small></div>
+      <div class="pill pill-purple"><strong>Thaifah Manshurah</strong><br><small>Kelompok yang Menang</small></div>
+    </div>
+
+    <p style="font-size:.875rem"><strong>Disebut Ahlus Sunnah wal Jama'ah:</strong> karena kepatuhan mereka pada Sunnah Nabi ﷺ. Al-Jama'ah mengacu pada kenyataan bahwa mereka semua bersatu dalam mengikuti Sunnah Nabi ﷺ, dan berpegang pada masalah-masalah yang ada ijma' (kesepakatan ilmiah) di dalamnya.</p>
+    <p style="font-size:.875rem;margin-top:.5rem"><strong>Disebut Firqah Najiyah (Golongan yang Selamat):</strong> karena mereka selamat dari api neraka atau dari fitnah berkat kepatuhan mereka pada Sunnah.</p>
+    <div class="hadits"><span class="hadits-label">Hadits Muawiyah bin Abi Sufyan رضي الله عنه:</span>«Ahli Kitab terpecah menjadi tujuh puluh dua golongan dalam hal keyakinan agama. Umat ini akan terpecah menjadi tujuh puluh tiga golongan – maknanya mengikuti hawa nafsu dan keinginan – semuanya di neraka kecuali satu, yaitu Al-Jama'ah.»<span class="ref">HR. Ahmad dan At-Tirmidzi; dinilai hasan oleh Al-Albani</span></div>
+    <p style="font-size:.875rem;margin-top:.5rem"><strong>Disebut Thaifah Manshurah (Kelompok yang Menang):</strong> karena mereka akan terus menang hingga tibanya Hari Kiamat.</p>
+    <div class="hadits"><span class="hadits-label">Rasulullah ﷺ bersabda:</span>«Senantiasa ada sekelompok dari umatku yang tetap menang dan tidak akan tergoyahkan oleh orang-orang yang menyia-nyiakan mereka hingga hari kiamat tiba.»<span class="ref">HR. Ahmad dan At-Tirmidzi; dinilai shahih</span></div>
+
+    <div class="divider"></div>
+    <h4>Dalil bahwa Ijma' para ulama merupakan bukti yang wajib dirujuk dalam aqidah:</h4>
+
+    <div class="num-item">
+      <div class="num-badge nb-purple">1</div>
+      <div class="num-item-content">
+        <div class="ayat">«Dan barangsiapa menentang Rasul (Muhammad) setelah jelas kebenaran baginya, dan mengikuti jalan yang bukan jalan orang-orang mukmin, Kami biarkan dia dalam kesesatan yang telah dilakukannya itu dan akan Kami masukkan dia ke dalam neraka Jahannam…»<span class="ref">(QS. An-Nisa': 115)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-purple">2</div>
+      <div class="num-item-content">
+        <div class="hadits"><span class="hadits-label">Rasulullah ﷺ bersabda:</span>«Barangsiapa di antara kalian yang masih hidup (untuk menyaksikannya), aku wasiatkan dia agar berpegang pada sunnahku dan sunnah para khalifah yang lurus lagi mendapat petunjuk; berpeganglah teguh padanya.»<span class="ref">Disebutkan sebelumnya.</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-purple">3</div>
+      <div class="num-item-content">
+        <div class="hadits"><span class="hadits-label">Diriwayatkan dari Ibnu Umar رضي الله عنه bahwa Rasulullah ﷺ bersabda:</span>«Sesungguhnya Allah tidak akan membiarkan umatku – atau umat Muhammad ﷺ – untuk bersepakat dalam kesesatan. Tangan Allah bersama Al-Jama'ah.»<span class="ref">HR. At-Tirmidzi; dinilai shahih oleh Al-Albani</span></div>
+      </div>
+    </div>
+
+    <div class="benefit">
+      <div class="benefit-title">Akal (Reason)</div>
+      <p>Melalui akal, seseorang dapat memahami sebagian fakta yang ditetapkan oleh ilmu aqidah, seperti: keberadaan Allah, keesaan-Nya, keabadian-Nya, kesempurnaan pengetahuan-Nya tentang ciptaan-Nya, Kemahakuasaan-Nya, kearifan-Nya, dan satu-satunya yang berhak disembah, bukan yang lainnya, dan sebagainya.</p>
+      <p>Namun akal saja tidak mampu menemukan dan mempelajari detail-detail cabang ilmu ini, karena detail-detail tersebut hanya bisa diketahui dari nash-nash Al-Quran dan Sunnah.</p>
+      <p>Jika tampak ada pertentangan antara yang dipahami dari nash yang shahih dan yang dipahami berdasarkan akal yang sehat, maka nash-nash agama harus didahulukan, karena dua alasan: Pertama, nash tidak berubah sedangkan akal bisa berubah. Kedua, apa yang ditetapkan dari nash adalah pasti dan tidak bisa salah, sedangkan akal tidak demikian.</p>
+    </div>
+  </div>
+
+  <!-- PRINSIP-PRINSIP AHLUS SUNNAH -->
+  <div class="card card-amber">
+    <span class="tag tag-amber">Prinsip-prinsip Ahlus Sunnah</span>
+    <div class="sec-title amber">Prinsip-prinsip Dasar yang Ditetapkan Ahlus Sunnah dalam Verifikasi Aqidah</div>
+    <p style="font-size:.875rem;margin-bottom:.85rem">Ahlus Sunnah memiliki prinsip-prinsip tertentu dalam memverifikasi permasalahan aqidah yang membedakan mereka dari para ahli bid'ah dan kesesatan. Prinsip-prinsip tersebut adalah:</p>
+
+    <div class="num-item">
+      <div class="num-badge nb-amber">1</div>
+      <div class="num-item-content">
+        <strong>Beriman, tunduk, dan mengagungkan nash-nash Al-Quran dan Sunnah</strong>
+        <p>Berbeda dengan para ahli bid'ah dan kesesatan, yang beriman kepada sebagian nash agama dan menolak yang lain, atas dasar kebodohan, hawa nafsu, dan keinginan. Dalil prinsip ini sangat banyak, di antaranya:</p>
+        <div class="ayat">«Tidaklah patut bagi orang beriman, laki-laki maupun perempuan, apabila Allah dan Rasul-Nya telah menetapkan suatu ketetapan, untuk mempunyai pilihan (yang lain) tentang urusan mereka. Dan barangsiapa mendurhakai Allah dan Rasul-Nya, maka sungguh, dia telah tersesat, dengan kesesatan yang nyata.»<span class="ref">(QS. Al-Ahzab: 36)</span></div>
+        <div class="ayat">«Sesungguhnya jawaban orang-orang mukmin bila mereka dipanggil kepada Allah dan Rasul-Nya agar Rasul memutuskan (perkara) di antara mereka, hanyalah ucapan: "Kami mendengar dan kami taat."»<span class="ref">(QS. An-Nur: 51)</span></div>
+        <div class="ayat">«Wahai orang-orang yang beriman! Janganlah kamu mendahului Allah dan Rasul-Nya…»<span class="ref">(QS. Al-Hujurat: 1)</span></div>
+        <div class="ayat">«Maka demi Tuhanmu, mereka tidak beriman sebelum mereka menjadikan engkau (Muhammad) sebagai hakim dalam perkara yang mereka perselisihkan, kemudian tidak ada rasa keberatan dalam hati mereka terhadap keputusan yang engkau berikan, dan mereka menerima dengan sepenuhnya.»<span class="ref">(QS. An-Nisa': 65)</span></div>
+      </div>
+    </div>
+
+    <div class="num-item">
+      <div class="num-badge nb-amber">2</div>
+      <div class="num-item-content">
+        <strong>Mengumpulkan seluruh nash yang membicarakan satu masalah tertentu dan memahaminya secara bersamaan sesuai metodologi yang benar</strong>
+        <p>Hal ini berbeda dengan para ahli bid'ah yang mengandalkan satu atau lebih teks, dengan mengabaikan nash-nash agama lain yang membahas masalah yang sama. Kemudian mereka menggunakan teks itu seolah-olah bertentangan dengan prinsip-prinsip dan nash-nash lainnya. Dengan demikian mereka mengikuti nash-nash yang samar (mutasyabihat).</p>
+        <div class="hadits"><span class="hadits-label">Nabi ﷺ memperingatkan hal tersebut. Diriwayatkan dari Abdullah bin Amr bin Al-Ash رضي الله عنه bahwa Rasulullah ﷺ bersabda:</span>«Lakukanlah dengan mudah, wahai manusia, karena sesungguhnya begitulah cara bangsa-bangsa sebelum kalian binasa, karena mereka menyelisihi para nabi mereka dan mengutip sebagian Kitab untuk mempertentangkan sebagian lainnya. Al-Quran tidak diturunkan agar sebagiannya digunakan untuk mempertentangkan bagian lainnya; sebaliknya, sebagian darinya membenarkan sebagian lainnya. Apa yang kamu pahami darinya, maka amalkanlah; dan apa yang tidak kamu pahami, maka serahkanlah kepada orang yang memahaminya.»<span class="ref">HR. Ahmad; dinilai shahih oleh Al-Arnauth</span></div>
+      </div>
+    </div>
+
+    <div class="num-item">
+      <div class="num-badge nb-amber">3</div>
+      <div class="num-item-content">
+        <strong>Berpegang teguh pada Al-Quran dan Sunnah, karena keduanya adalah petunjuk dan cahaya</strong>
+        <p>Hal ini berbeda dengan cara para ahli bid'ah dan kesesatan, yang <em>mengandalkan sesuatu selain wahyu, seperti halnya kaum Sufi yang menjadikan ucapan dan mimpi para syekh mereka sebagai sumber ajaran Islam, dan memandangnya sebagai bukti untuk membenarkan permasalahan agama.</em></p>
+        <div class="ayat">«Dengan kitab itulah Allah memberi petunjuk kepada siapa yang mengikuti keridaan-Nya ke jalan keselamatan, dan (dengan kitab itu pula) Allah mengeluarkan orang itu dari gelap gulita kepada cahaya dengan izin-Nya, dan menunjukkan ke jalan yang lurus.»<span class="ref">(QS. Al-Maidah: 16)</span></div>
+        <div class="ayat">«…Pada hari ini telah Aku sempurnakan agamamu untukmu, dan telah Aku cukupkan nikmat-Ku bagimu, dan telah Aku ridai Islam sebagai agamamu.»<span class="ref">(QS. Al-Maidah: 3)</span></div>
+        <div class="hadits"><span class="hadits-label">Dari Zaid bin Arqam رضي الله عنه bahwa Rasulullah ﷺ bersabda:</span>«Amma ba'du: Wahai manusia, sesungguhnya aku hanyalah manusia biasa. Hampir saja utusan Tuhanku (malaikat maut) datang kepadaku, dan aku akan memenuhinya. Aku meninggalkan di tengah kalian dua perkara yang berat: yang pertama adalah Kitabullah, yang di dalamnya terdapat petunjuk dan cahaya. Pegang teguhlah Kitabullah dan berpeganglah padanya.»<span class="ref">HR. Muslim</span></div>
+        <div class="benefit">
+          <div class="benefit-title">Prinsip ini mengandung hal berikut:</div>
+          <p>Menetapkan apa yang Allah dan Rasul-Nya ﷺ tetapkan dalam Al-Quran dan Sunnah yang shahih; meniadakan apa yang Allah dan Rasul-Nya ﷺ tiadakan dalam Al-Quran dan Sunnah yang shahih; dan diam tentang hal-hal yang Allah dan Rasul-Nya ﷺ diam mengenainya. Sebagaimana Allah ﷻ berfirman: «Dan janganlah kamu mengikuti sesuatu yang tidak kamu ketahui. Sesungguhnya pendengaran, penglihatan, dan hati nurani, semua itu akan diminta pertanggungjawabannya.» (QS. Al-Isra': 36).</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="num-item">
+      <div class="num-badge nb-amber">4</div>
+      <div class="num-item-content">
+        <strong>Memahami nash-nash Al-Quran dan Sunnah yang shahih sesuai pemahaman para Sahabat رضي الله عنهم</strong>
+        <p>Hal ini berbeda dengan para ahli bid'ah dan kesesatan yang memiliki pandangan berbeda mengenai pemahaman ini dan mengenai para Sahabat itu sendiri. Karena itulah kamu melihat sebagian dari para pembuat bid'ah, seperti kaum Khawarij dan Rafidah misalnya, mencela para Sahabat رضي الله عنهم, itulah mengapa mereka tidak memperhatikan pemahaman para Sahabat terhadap nash-nash agama.</p>
+        <div class="ayat">«Dan barangsiapa menentang Rasul (Muhammad) setelah jelas kebenaran baginya, dan mengikuti jalan yang bukan jalan orang-orang mukmin, Kami biarkan dia dalam kesesatan yang telah dilakukannya itu…»<span class="ref">(QS. An-Nisa': 115)</span></div>
+        <div class="ayat">«Maka jika mereka beriman sebagaimana kamu beriman, sungguh mereka telah mendapat petunjuk; dan jika mereka berpaling, sesungguhnya mereka berada dalam permusuhan (dengan kamu)…»<span class="ref">(QS. Al-Baqarah: 137)</span></div>
+        <div class="benefit">
+          <div class="benefit-title">Bid'ah Penafsiran Ulang Teks (Reinterpretasi)</div>
+          <p>Salah satu gagasan yang bertentangan dengan prinsip ini adalah gagasan yang disebut "penafsiran ulang teks" (I'adat Fahm An-Nash). Gagasan ini menyatakan bahwa kita tidak perlu lagi mengacu pada pemahaman para Sahabat, karena pemahaman mereka adalah untuk masa tertentu yang telah berlalu. Para pendukung gagasan ini disebut dengan berbagai nama: progresif, modernis, atau liberalis.</p>
+          <p>Gagasan ini bertentangan dengan prinsip-prinsip Ahlus Sunnah dalam banyak hal:<br>
+          a. Merupakan bid'ah yang tidak dikenal oleh umat Islam generasi pertama.<br>
+          b. Bertentangan dengan apa yang ditunjukkan oleh Al-Quran dan Sunnah yang shahih.<br>
+          c. Termasuk dalam kategori penyimpangan makna, karena mengartikan teks berarti setiap pembaca memiliki pemahamannya sendiri menurut makna yang ia sukai, tanpa pedoman atau kerangka yang mengatur pemahaman ini.<br>
+          d. Membuka pintu keburukan dan kekacauan, karena teks-teks agama menjadi mainan di tangan orang-orang yang merusaknya.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="num-item">
+      <div class="num-badge nb-amber">5</div>
+      <div class="num-item-content">
+        <strong>Merujuk kepada bahasa Arab untuk memahami makna yang dimaksud dari nash-nash Al-Quran dan Sunnah yang shahih</strong>
+        <p>Hal ini dilakukan jika tidak ditemukan satu nash yang menjelaskan nash lainnya, karena Al-Quran diturunkan dalam bahasa Arab yang jelas. Allah ﷻ berfirman:</p>
+        <div class="ayat">«Sesungguhnya Kami menurunkannya berupa Al-Qur'an berbahasa Arab, agar kamu mengerti.»<span class="ref">(QS. Yusuf: 2)</span></div>
+        <div class="ayat">«Dan demikianlah Kami turunkan Al-Qur'an dalam bahasa Arab, dan Kami menjelaskan berulang-ulang di dalamnya ancaman, agar mereka bertakwa atau agar (Al-Qur'an) itu menimbulkan pengajaran bagi mereka.»<span class="ref">(QS. Thaha: 113)</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- AKTIVITAS UNIT 1 -->
+  <div class="activity-wrap">
+    <div class="sec-title">Aktivitas Unit 1</div>
+    <p style="font-size:.875rem;color:var(--muted);margin-bottom:.85rem">Berilah tanda (✓) pada pernyataan yang benar dan tanda (✗) pada pernyataan yang salah:</p>
+    <div class="activity-item">
+      <div class="q-num">1</div>
+      <p style="flex:1">Aqidah adalah permasalahan-permasalahan yang sudah pasti dan definitif, yang seseorang boleh meragukannya.</p>
+      <div class="answer-badge ans-wrong">✗</div>
+    </div>
+    <div class="activity-item">
+      <div class="q-num">2</div>
+      <p style="flex:1">Aqidah yang salah atau rusak adalah yang bertentangan dengan dalil-dalil shahih dari Al-Quran dan Sunnah yang shahih.</p>
+      <div class="answer-badge ans-correct">✓</div>
+    </div>
+    <div class="activity-item">
+      <div class="q-num">3</div>
+      <p style="flex:1">Meluasnya kejahatan, kerusakan, kekacauan, dan pembunuhan di dunia Islam pada umumnya, dan di dunia Arab pada khususnya, merupakan akibat dari berpegang teguhnya masyarakat pada aqidah yang shahih.</p>
+      <div class="answer-badge ans-wrong">✗</div>
+    </div>
+    <div class="activity-item">
+      <div class="q-num">4</div>
+      <p style="flex:1">Aqidah yang shahih memberikan jawaban atas pertanyaan-pertanyaan terbesar yang diajukan manusia: dari mana aku berasal? mengapa aku diciptakan? ke mana aku setelah mati?</p>
+      <div class="answer-badge ans-correct">✓</div>
+    </div>
+    <div class="activity-item">
+      <div class="q-num">5</div>
+      <p style="flex:1">Tidak sah mempelajari aqidah dari Sunnah Nabi, karena bukan merupakan sumber yang terpercaya.</p>
+      <div class="answer-badge ans-wrong">✗</div>
+    </div>
+    <div class="activity-item">
+      <div class="q-num">6</div>
+      <p style="flex:1">Ciri-ciri para ahli bid'ah mencakup iman, ketundukan, dan pengagungan terhadap teks-teks wahyu.</p>
+      <div class="answer-badge ans-wrong">✗</div>
+    </div>
+    <div class="activity-item">
+      <div class="q-num">7</div>
+      <p style="flex:1">Kaum Sufi menjadikan ucapan dan mimpi para syekh mereka sebagai sumber ajaran Islam dan memandangnya sebagai bukti untuk membenarkan permasalahan agama.</p>
+      <div class="answer-badge ans-correct">✓</div>
+    </div>
+    <div class="activity-item">
+      <div class="q-num">8</div>
+      <p style="flex:1">Gagasan yang menyerukan penafsiran ulang nash-nash agama adalah gagasan yang baik dan sesuai dengan prinsip-prinsip Ahlus Sunnah mengenai aqidah.</p>
+      <div class="answer-badge ans-wrong">✗</div>
+    </div>
+    <div class="activity-item">
+      <div class="q-num">9</div>
+      <p style="flex:1">Setan adalah penyebab utama menyimpangnya manusia dari aqidah yang shahih.</p>
+      <div class="answer-badge ans-correct">✓</div>
+    </div>
+    <div class="activity-item">
+      <div class="q-num">10</div>
+      <p style="flex:1">Salah satu hal yang dipuji dalam Al-Quran dan Sunnah yang shahih adalah berlebih-lebihan dalam mengagungkan orang-orang shalih.</p>
+      <div class="answer-badge ans-wrong">✗</div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!--  UNIT 2                                                       -->
+<!-- ============================================================ -->
+<div id="unit2" class="section">
+
+  <div class="unit-hero uh-2" data-num="2">
+    <h2>Penyimpangan dari Aqidah yang Shahih</h2>
+    <p>Sebab-sebab penyimpangan dari aqidah yang shahih · Cara-cara melindungi diri dari penyimpangan</p>
+  </div>
+
+  <div class="card card-red">
+    <span class="tag tag-red">Bagian Pertama</span>
+    <div class="sec-title red">Sebab-sebab Penyimpangan dari Aqidah yang Shahih</div>
+
+    <div class="num-item">
+      <div class="num-badge nb-red">1</div>
+      <div class="num-item-content">
+        <strong>Kebodohan terhadap Aqidah yang Shahih</strong>
+        <p>Hal ini terjadi karena berpaling dari mempelajari dan mengajarkan aqidah, atau karena tidak adanya minat dan perhatian terhadapnya, sehingga tumbuh sebuah generasi yang tidak mengenal aqidah dan tidak tahu apa yang bertentangan dengannya. Mereka pun menganggap yang benar itu salah dan yang salah itu benar.</p>
+        <div class="hadits"><span class="hadits-label">Umar bin Khattab رضي الله عنه berkata:</span>"Ikatan-ikatan Islam akan terputus satu persatu ketika tumbuh dalam Islam sebuah generasi yang tidak mengenal kejahiliyahan."</div>
+      </div>
+    </div>
+
+    <div class="num-item">
+      <div class="num-badge nb-red">2</div>
+      <div class="num-item-content">
+        <strong>Mengikuti Para Penebar Kejahatan dan Pemimpin Kesesatan</strong>
+        <p>Selalu saja ada penebar kejahatan dan pemimpin kesesatan yang menghalangi manusia dari jalan Allah yang lurus dan agama yang benar, baik di masa lalu maupun di masa kini.</p>
+        <p><strong>Di antaranya adalah As-Samiri:</strong> Ia adalah seorang laki-laki dari kaum yang menyembah sapi, yang merupakan tetangga Bani Israil. Dikisahkan bahwa sebagian dari mereka hidup di masa Nabi Musa عليه السلام. Ketika Musa عليه السلام pergi menemui Tuhannya di Jabal Thur, As-Samiri membuat untuk Bani Israil seekor anak sapi dari emas, dan mengklaim bahwa itulah tuhan mereka dan tuhan Musa عليه السلام. Dari anak sapi itu keluar suara seperti suara lembu, yaitu suara rendah yang terdengar ketika angin bertiup melaluinya. Ketika Bani Israil mendengarnya, mereka menari mengelilinginya dan bersuka cita.</p>
+        <div class="ayat">«…Sesungguhnya Kami telah menguji kaummu sepeninggalmu, dan mereka telah disesatkan oleh As-Samiri.»<span class="ref">(QS. Thaha: 85)</span></div>
+        <p><strong>Di antara penebar kejahatan lainnya adalah Amr bin Amir Al-Khuza'i:</strong></p>
+        <div class="hadits"><span class="hadits-label">HR. Al-Bukhari dan Muslim, dari Aisyah رضي الله عنها:</span>Rasulullah ﷺ bersabda: «Aku melihat neraka, sebagiannya memakan sebagian lainnya, dan aku melihat Amr menyeret ususnya (di dalamnya), karena dialah orang yang pertama kali memperkenalkan kebiasaan sa'ibah.» Yang dimaksud dengan kebiasaan sa'ibah adalah sistem di mana mereka membiarkan seekor unta betina pergi ke mana saja ia mau, dan tidak boleh ditunggangi atau dihalangi dari sumber air atau padang rumput, sebagai pemenuhan nazar kepada tuhan-tuhan mereka. Nabi ﷺ melihatnya menyeret ususnya di neraka karena dialah yang pertama kali mengubah agama Ismail dengan mendirikan berhala-berhala dan memperkenalkan kebiasaan sa'ibah.</div>
+
+        <div class="benefit">
+          <div class="benefit-title">Di era modern: Kaum Rafidah yang Ekstrem</div>
+          <p>Mereka menyimpang dari prinsip-prinsip Ahlus Sunnah dalam banyak hal, di antaranya:</p>
+          <p>• Menolak hadits-hadits Nabi yang shahih atas dasar hawa nafsu, bukan berdasarkan kaidah-kaidah ilmu hadits yang diikuti oleh para ulama hadits terkemuka.<br>
+          • Termasuk dalam penolakan mereka adalah hadits-hadits shahih di mana Nabi ﷺ menjelaskan beberapa hal gaib, seperti tanda-tanda dan pertanda Hari Kiamat yang akan terjadi di akhir zaman, termasuk Dajjal, turunnya Isa عليه السلام, dan Al-Mahdi رضي الله عنه.<br>
+          • Mereka mencela para Sahabat رضي الله عنهم, khususnya Sahabat agung Muawiyah bin Abi Sufyan رضي الله عنه.<br>
+          • Berlebihan dalam meninggikan peran akal dan mendudukkannya di atas statusnya yang semestinya, sehingga akal menjadi hakim atas teks-teks Al-Quran dan Sunnah yang shahih.</p>
+        </div>
+
+        <div class="ayat">«Dan Kami jadikan mereka pemimpin-pemimpin yang mengajak (manusia) ke neraka dan pada hari Kiamat mereka tidak akan ditolong.»<span class="ref">(QS. Al-Qashash: 41)</span></div>
+        <div class="hadits"><span class="hadits-label">Hudhaifah bin Al-Yaman رضي الله عنه meriwayatkan bahwa Rasulullah ﷺ bersabda:</span>«Akan ada para penyeru di pintu-pintu neraka; barangsiapa yang memenuhi seruan mereka, mereka akan melemparnya ke dalamnya.» Aku berkata: Wahai Rasulullah, jelaskan ciri-ciri mereka kepada kami. Beliau berkata: «Mereka adalah orang-orang dari kalangan kita yang berbicara dengan bahasa kita.»<span class="ref">HR. Muslim</span></div>
+        <div class="hadits"><span class="hadits-label">Tsauban رضي الله عنه meriwayatkan bahwa Rasulullah ﷺ bersabda:</span>«Sesungguhnya yang paling aku takutkan atas umatku adalah para pemimpin yang menyesatkan mereka.»<span class="ref">HR. Ahmad dan At-Tirmidzi; dinilai shahih</span></div>
+        <div class="hadits"><span class="hadits-label">Abdullah bin Amr bin Al-Ash رضي الله عنه meriwayatkan, ia berkata: Aku mendengar Rasulullah ﷺ bersabda:</span>«Sesungguhnya Allah tidak mencabut ilmu dengan mencabutnya begitu saja dari hati para hamba. Namun Allah mencabut ilmu dengan mewafatkan para ulama, hingga ketika tidak ada lagi seorang ulama yang tersisa, orang-orang akan menjadikan pemimpin-pemimpin yang bodoh sebagai panutan; mereka akan ditanya dan berfatwa tanpa ilmu. Mereka pun sesat dan menyesatkan.»<span class="ref">HR. Al-Bukhari dan Muslim</span></div>
+      </div>
+    </div>
+
+    <div class="num-item">
+      <div class="num-badge nb-red">3</div>
+      <div class="num-item-content">
+        <strong>Mengikuti Hawa Nafsu</strong>
+        <p>Yaitu mengikuti apa yang disukai dan diinginkan manusia, yang bisa bermanfaat atau berbahaya. Yang dimaksud di sini adalah yang berbahaya dan menjauhkan dari kebenaran.</p>
+        <div class="ayat">«Maka sudahkah engkau melihat orang yang menjadikan keinginannya sebagai tuhannya dan Allah membiarkannya sesat berdasarkan ilmu-Nya dan Allah telah mengunci pendengaran dan hatinya serta meletakkan tutup atas penglihatannya? Maka siapakah yang mampu memberinya petunjuk setelah Allah (membiarkannya sesat)? Mengapa kamu tidak mengambil pelajaran?»<span class="ref">(QS. Al-Jatsiyah: 23)</span></div>
+        <div class="ayat">«…Jika mereka tidak menjawab ajakanmu (Muhammad), ketahuilah bahwa mereka hanya mengikuti keinginan mereka sendiri. Dan siapakah yang lebih sesat daripada orang yang mengikuti keinginannya sendiri tanpa petunjuk dari Allah sedikit pun?…»<span class="ref">(QS. Al-Qashash: 50)</span></div>
+      </div>
+    </div>
+
+    <div class="num-item">
+      <div class="num-badge nb-red">4</div>
+      <div class="num-item-content">
+        <strong>Berlebih-lebihan dalam Mengagungkan Orang-orang Shalih</strong>
+        <p>Yaitu memuji mereka secara berlebihan dan mengangkat derajat mereka di atas status yang semestinya, dengan cara mempersembahkan beberapa bentuk ibadah kepada mereka, seperti: mengagungkan kuburan mereka, mempersembahkan kurban, bernazar, membawa sesaji, memanggil penghuninya, serta memohon pertolongan dan dukungan mereka. Sebagaimana yang dilakukan kaum Nuh dengan orang-orang shalih mereka.</p>
+        <div class="ayat">«Dan mereka berkata: Jangan sekali-kali kamu meninggalkan (penyembahan) tuhan-tuhanmu dan jangan pula sekali-kali kamu meninggalkan (penyembahan) Wadd, dan jangan pula Suwa', Yaghuts, Ya'uq, dan Nasr.»<span class="ref">(QS. Nuh: 23)</span></div>
+        <p>Hal ini juga terjadi pada para penyembah kuburan di berbagai daerah hingga saat ini.</p>
+        <div class="ayat">«Wahai Ahli Kitab! Janganlah kamu berlebihan dalam agamamu, dan janganlah kamu mengatakan tentang Allah kecuali yang benar.»<span class="ref">(QS. An-Nisa': 171)</span></div>
+        <div class="hadits"><span class="hadits-label">Rasulullah ﷺ bersabda:</span>«Wahai manusia, hati-hatilah kalian dari berlebih-lebihan dalam agama, karena sesungguhnya kehancuran orang-orang sebelum kalian adalah karena berlebih-lebihan dalam agama.»<span class="ref">HR. Ahmad dan An-Nasai; dinilai shahih oleh Al-Albani</span></div>
+      </div>
+    </div>
+
+    <div class="num-item">
+      <div class="num-badge nb-red">5</div>
+      <div class="num-item-content">
+        <strong>Taklid Buta</strong>
+        <p>Yaitu mengikuti orang tua, para ulama, para pemimpin, dan tokoh-tokoh berpengaruh, serta menaatinya secara membabi buta tanpa dalil dan bukti apapun. Banyak sekali dalil mengenai hal ini, di antaranya:</p>
+        <div class="ayat">«Bahkan mereka berkata: Kami mendapati nenek moyang kami menganut suatu agama, dan sesungguhnya kami mendapat petunjuk untuk mengikuti jejak mereka.»<span class="ref">(QS. Az-Zukhruf: 22)</span></div>
+        <div class="ayat">«Dan mereka berkata: Ya Tuhan kami, sesungguhnya kami telah menaati pemimpin-pemimpin dan orang-orang besar kami, lalu mereka menyesatkan kami dari jalan (yang benar).»<span class="ref">(QS. Al-Ahzab: 67)</span></div>
+        <div class="ayat">«Mereka menjadikan orang-orang alimnya dan rahib-rahib mereka sebagai tuhan selain Allah, dan (juga mereka mempertuhankan) Al-Masih putra Maryam…»<span class="ref">(QS. At-Taubah: 31)</span></div>
+        <p style="font-size:.875rem"><em>Maknanya adalah: mereka mengikuti para ulama dan rahib dalam hal menghalalkan apa yang Allah haramkan dan mengharamkan apa yang Allah halalkan, tanpa dalil dan bukti.</em></p>
+        <p><strong>Taklid buta di era modern: Kaum Sufi dan Rafidah</strong> – Kedua kelompok ini telah terjebak dalam taklid buta kepada syekh-syekh kesesatan dan pemimpin kejahatan, tanpa pemahaman dan bukti. Mereka meyakini bahwa ketaatan kepada mereka harus bersifat mutlak dan buta. Salah seorang dari mereka bersama syekhnya bagaikan mayat di tangan orang yang memandikannya, dan ia memutarnya sesuka hatinya.</p>
+      </div>
+    </div>
+
+    <div class="num-item">
+      <div class="num-badge nb-red">6</div>
+      <div class="num-item-content">
+        <strong>Mengikuti Jalan-jalan Kesesatan</strong>
+        <div class="ayat">«Dan (ketahuilah) bahwa ini adalah jalan-Ku yang lurus, maka ikutilah! Jangan kamu ikuti jalan-jalan (yang lain), karena jalan-jalan itu mencerai-beraikan kamu dari jalan-Nya.»<span class="ref">(QS. Al-An'am: 153)</span></div>
+      </div>
+    </div>
+
+    <div class="num-item">
+      <div class="num-badge nb-red">7</div>
+      <div class="num-item-content">
+        <strong>Lalai dan Tidak Merenungkan Ayat-ayat Al-Quran dan Tanda-tanda Kebesaran Allah di Alam Semesta</strong>
+        <div class="ayat">«Mereka itulah orang-orang yang hati, pendengaran, dan penglihatannya telah dikunci oleh Allah, dan mereka itulah orang-orang yang lalai.»<span class="ref">(QS. An-Nahl: 108)</span></div>
+        <div class="ayat">«Dan sungguh, Kami jadikan untuk isi neraka Jahannam kebanyakan dari jin dan manusia. Mereka mempunyai hati, tetapi tidak dipergunakannya untuk memahami (ayat-ayat Allah) dan mereka mempunyai mata (tetapi) tidak dipergunakannya untuk melihat (tanda-tanda kekuasaan Allah), dan mereka mempunyai telinga (tetapi) tidak dipergunakannya untuk mendengarkan (ayat-ayat Allah). Mereka itu seperti hewan ternak, bahkan lebih sesat lagi…»<span class="ref">(QS. Al-A'raf: 179)</span></div>
+        <div class="ayat">«Dan berapa banyak tanda-tanda (kebesaran Allah) di langit dan di bumi yang mereka lalui, sedang mereka berpaling darinya!»<span class="ref">(QS. Yusuf: 105)</span></div>
+      </div>
+    </div>
+
+    <div class="num-item">
+      <div class="num-badge nb-red">8</div>
+      <div class="num-item-content">
+        <strong>Kesombongan</strong>
+        <p>Inilah yang mendorong seseorang untuk menolak kebenaran dan tidak menerimanya dari orang yang membawanya, karena ia memandang rendah orang tersebut.</p>
+        <div class="hadits"><span class="hadits-label">Rasulullah ﷺ bersabda:</span>«Sombong adalah menolak kebenaran dan merendahkan orang lain.»<span class="ref">HR. Muslim</span></div>
+        <p><em>"Menolak kebenaran"</em> berarti terlalu sombong untuk menerimanya. <em>"Merendahkan orang lain"</em> berarti memandang rendah mereka.</p>
+        <p>Kesombongan memiliki dampak yang sangat merusak, karena kesombongan itulah yang menyebabkan kepala, sumber, dan akar kejahatan – yaitu Iblis – berpaling dari kebenaran yang nyata. Allah ﷻ memberitahu kita tentang hal tersebut:</p>
+        <div class="ayat">«Dan (ingatlah) ketika Kami berfirman kepada para malaikat: "Sujudlah kamu kepada Adam!" Maka mereka pun sujud kecuali iblis. Ia menolak dan menyombongkan diri, dan ia termasuk golongan yang kafir.»<span class="ref">(QS. Al-Baqarah: 34)</span></div>
+        <div class="ayat">«Kemudian Kami utus Musa dan Harun kepada Firaun dan para pembesarnya dengan membawa tanda-tanda (mukjizat) Kami, tetapi mereka menyombongkan diri…»<span class="ref">(QS. Yunus: 75)</span></div>
+        <div class="ayat">«Sedangkan kaum 'Ad, mereka menyombongkan diri di bumi tanpa alasan yang benar, dan mereka berkata: Siapakah yang lebih kuat dari kami?»<span class="ref">(QS. Fussilat: 15)</span></div>
+      </div>
+    </div>
+
+    <div class="num-item">
+      <div class="num-badge nb-red">9</div>
+      <div class="num-item-content">
+        <strong>Mengikuti Setan</strong>
+        <p>Banyak sekali dalil mengenai hal ini dari Al-Quran dan Sunnah yang shahih, di antaranya:</p>
+        <div class="ayat">«(Iblis) berkata: Wahai Tuhanku, oleh karena Engkau telah memutuskan bahwa aku sesat, aku pasti akan jadikan (kejahatan) terasa indah bagi mereka di bumi, dan aku akan menyesatkan mereka semuanya.»<span class="ref">(QS. Al-Hijr: 39)</span></div>
+        <div class="ayat">«Sungguh, setan itu adalah musuh bagimu, maka jadikanlah ia musuh(mu), karena sesungguhnya setan itu hanya mengajak golongannya agar mereka menjadi penghuni neraka yang menyala-nyala.»<span class="ref">(QS. Fathir: 6)</span></div>
+        <div class="ayat">«(Iblis) berkata: Karena Engkau telah menyesatkan aku, pasti aku akan selalu menghalangi mereka dari jalan-Mu yang lurus. Kemudian pasti aku akan mendatangi mereka dari depan, dari belakang, dari kanan, dan dari kiri mereka…»<span class="ref">(QS. Al-A'raf: 16-17)</span></div>
+        <div class="ayat">«Dan setan berkata ketika perkara (hisab) telah diselesaikan: "Sesungguhnya Allah telah menjanjikan kepadamu janji yang benar, dan aku pun telah menjanjikan kepadamu tetapi aku menyalahinya. Tidak ada kekuasaan bagiku terhadapmu, melainkan (sekedar) aku menyeru kamu lalu kamu mematuhi seruanku…"»<span class="ref">(QS. Ibrahim: 22)</span></div>
+        <div class="hadits"><span class="hadits-label">Diriwayatkan dari Iyadh bin Himar Al-Mujasyi'i رضي الله عنه, bahwa Rasulullah ﷺ bersabda suatu hari dalam khutbahnya:</span>«Sesungguhnya Tuhanku telah memerintahkan aku untuk mengajarkan kepada kalian apa yang tidak kalian ketahui dari apa yang Dia ajarkan kepadaku pada hari ini. 'Setiap harta yang Aku anugerahkan kepada seorang hamba adalah halal. Dan Aku ciptakan hamba-hamba-Ku dengan kecenderungan kepada kebenaran (hunafa'), semuanya; namun setan-setan mendatangi mereka dan menyesatkan mereka dari agama mereka, mengharamkan bagi mereka apa yang Aku halalkan, dan memerintahkan mereka untuk menyekutukan-Ku dengan sesuatu yang tidak ada keterangan apapun tentangnya dari-Ku.'»<span class="ref">Disebutkan sebelumnya.</span></div>
+        <div class="hadits"><span class="hadits-label">Diriwayatkan dari Abdullah bin Mas'ud رضي الله عنه, ia berkata: Rasulullah ﷺ membuat garis dengan tangannya, lalu berkata:</span>«Ini adalah jalan Allah yang lurus.» Kemudian beliau membuat garis-garis di kanan dan kirinya, lalu berkata: «Ini adalah jalan-jalan lain; tidak ada satu pun di antara jalan-jalan tersebut melainkan ada setan di dalamnya yang mengajak manusia kepadanya.» Kemudian beliau membaca firman: «Dan (ketahuilah) bahwa ini adalah jalan-Ku yang lurus, maka ikutilah! Jangan kamu ikuti jalan-jalan (yang lain)…»<span class="ref">(QS. Al-An'am: 153). HR. Ahmad; dinilai shahih oleh Al-Arnauth</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RINGKASAN SEBAB -->
+  <div class="card">
+    <span class="tag tag-red">Ringkasan</span>
+    <div class="sec-title red">Sebab-sebab Penyimpangan dari Aqidah (Ringkasan)</div>
+    <div class="pill-grid">
+      <div class="pill pill-red">1. Tidak mengenal aqidah</div>
+      <div class="pill pill-red">2. Mengikuti pemimpin sesat</div>
+      <div class="pill pill-red">3. Mengikuti hawa nafsu</div>
+      <div class="pill pill-red">4. Mengagungkan orang shalih berlebihan</div>
+      <div class="pill pill-red">5. Taklid buta</div>
+      <div class="pill pill-red">6. Mengikuti jalan kesesatan</div>
+      <div class="pill pill-red">7. Lalai & tidak bertafakur</div>
+      <div class="pill pill-red">8. Kesombongan</div>
+      <div class="pill pill-red">9. Mengikuti setan</div>
+    </div>
+  </div>
+
+  <!-- CARA PERLINDUNGAN -->
+  <div class="card card-green">
+    <span class="tag tag-green">Bagian Kedua</span>
+    <div class="sec-title green">Cara-cara Melindungi Diri dari Penyimpangan Aqidah</div>
+
+    <div class="num-item">
+      <div class="num-badge nb-green">1</div>
+      <div class="num-item-content">
+        <strong>Mengikuti jalan yang lurus berdasarkan ajaran Nabi ﷺ dan para sahabatnya رضي الله عنهم</strong>
+        <p>Serta menjauhi apa yang bertentangan dengannya, yaitu jalan-jalan bid'ah dan kesesatan. Banyak sekali dalil mengenai hal ini, di antaranya:</p>
+        <div class="ayat">«Dan (ketahuilah) bahwa ini adalah jalan-Ku yang lurus, maka ikutilah! Jangan kamu ikuti jalan-jalan (yang lain)…»<span class="ref">(QS. Al-An'am: 153)</span></div>
+        <div class="ayat">«Ikutilah apa yang diturunkan kepadamu dari Tuhanmu dan janganlah kamu mengikuti pemimpin-pemimpin selain-Nya…»<span class="ref">(QS. Al-A'raf: 3)</span></div>
+        <div class="hadits"><span class="hadits-label">Rasulullah ﷺ bersabda:</span>«Orang-orang di antara kalian yang berumur panjang akan menyaksikan banyak perselisihan. Berhati-hatilah terhadap perkara-perkara yang baru diadakan (bid'ah), karena itu adalah kesesatan. Barangsiapa di antara kalian yang masih hidup untuk menyaksikannya, hendaknya ia berpegang pada sunnahku dan sunnah para khalifah yang lurus lagi mendapat petunjuk; berpeganglah teguh padanya.»<span class="ref">Disebutkan sebelumnya.</span></div>
+      </div>
+    </div>
+
+    <div class="num-item">
+      <div class="num-badge nb-green">2</div>
+      <div class="num-item-content">
+        <strong>Berhati-hati terhadap penebar kejahatan dan pemimpin kesesatan, serta menjauh dari mereka</strong>
+        <div class="hadits"><span class="hadits-label">Aisyah رضي الله عنها berkata: Rasulullah ﷺ membacakan ayat ini:</span>«Dialah yang menurunkan Al-Kitab (Al-Qur'an) kepadamu. Di antaranya ada ayat-ayat yang muhkamat, itulah pokok-pokok Al-Qur'an dan yang lain (ayat-ayat) mutasyabihat…» (QS. Ali Imran: 7). Beliau bersabda: «Jika kamu melihat orang-orang yang mencari hal-hal yang tidak spesifik (ambigu) di dalamnya, merekalah orang-orang yang Allah maksudkan ketika Dia berfirman: Berhati-hatilah terhadap mereka.»<span class="ref">Muttafaq 'alaih</span></div>
+        <div class="hadits"><span class="hadits-label">Abu Hurairah رضي الله عنه meriwayatkan bahwa Rasulullah ﷺ bersabda:</span>«Di penghujung zaman akan ada para penipu dan pendusta yang akan menceritakan kepada kalian tentang apa yang belum pernah kamu dan bapak-bapakmu mendengarnya. Berhati-hatilah terhadap mereka dan jauhilah mereka, agar mereka tidak menyesatkan dan membingungkan kalian.»<span class="ref">HR. Muslim</span></div>
+        <div class="hadits"><span class="hadits-label">Dalam hadits tentang Dajjal (yang merupakan salah satu penebar kejahatan dan pemimpin kesesatan yang paling buruk dan kuat), terdapat bukti prinsip penting ini. Diriwayatkan dari Imran bin Husain رضي الله عنه, ia berkata: Rasulullah ﷺ bersabda:</span>«Barangsiapa yang mendengar tentang Dajjal, hendaknya ia menjauh darinya; karena demi Allah, seseorang mungkin mendatanginya dengan anggapan dirinya mukmin, lalu ia akhirnya mengikutinya karena argumen-argumen yang menggiurkan yang akan ia sampaikan kepadanya, atau karena syubhat-syubhat yang dimilikinya.»<span class="ref">HR. Abu Dawud; dinilai shahih oleh Al-Albani</span></div>
+        <p style="font-size:.875rem"><em>Yang dimaksud dengan "menjauh darinya" adalah menghindarinya dan tidak mendekatinya sama sekali.</em></p>
+      </div>
+    </div>
+
+    <div class="num-item">
+      <div class="num-badge nb-green">3</div>
+      <div class="num-item-content">
+        <strong>Mencari ilmu dan pemahaman Islam dari ulama yang terpercaya dan mumpuni yang mengikuti metodologi kenabian</strong>
+        <div class="ayat">«Maka ketahuilah (Muhammad), bahwa tidak ada tuhan selain Allah…»<span class="ref">(QS. Muhammad: 19)</span></div>
+        <div class="ayat">«…Maka bertanyalah kepada orang yang mempunyai pengetahuan jika kamu tidak mengetahui, (dengan) keterangan-keterangan (mukjizat) dan kitab-kitab…»<span class="ref">(QS. An-Nahl: 43-44)</span></div>
+        <div class="hadits"><span class="hadits-label">Dalam riwayat Muawiyah bin Abi Sufyan رضي الله عنه, Nabi ﷺ bersabda:</span>«Barangsiapa yang Allah kehendaki kebaikan baginya, maka Allah akan memberinya pemahaman dalam agama.»<span class="ref">Muttafaq 'alaih</span></div>
+      </div>
+    </div>
+
+    <div class="num-item">
+      <div class="num-badge nb-green">4</div>
+      <div class="num-item-content">
+        <strong>Menahan diri dari berlebih-lebihan dalam agama dan berhati-hati untuk menghindarinya</strong>
+        <div class="ayat">«Wahai Ahli Kitab! Janganlah kamu berlebihan dalam agamamu, dan janganlah kamu mengatakan tentang Allah kecuali yang benar.»<span class="ref">(QS. An-Nisa': 171)</span></div>
+        <div class="ayat">«Katakanlah (Muhammad): Wahai Ahli Kitab! Janganlah kamu berlebihan dalam agamamu dengan cara yang tidak dibenarkan…»<span class="ref">(QS. Al-Maidah: 77)</span></div>
+        <div class="hadits"><span class="hadits-label">Rasulullah ﷺ bersabda:</span>«Wahai manusia, hati-hatilah kalian dari berlebih-lebihan dalam agama, karena sesungguhnya kehancuran orang-orang sebelum kalian adalah karena berlebih-lebihan dalam agama.»<span class="ref">Disebutkan sebelumnya.</span></div>
+      </div>
+    </div>
+
+    <div class="num-item">
+      <div class="num-badge nb-green">5</div>
+      <div class="num-item-content">
+        <strong>Mematuhi perintah Allah ﷻ dengan menjadikan setan sebagai musuh</strong>
+        <p>Hal itu dilakukan dengan cara berusaha mencapai penghambaan yang tulus kepada Allah ﷻ, memohon perlindungan kepada-Nya, mengandalkan-Nya, dan menunjukkan kesetiaan yang tulus kepada-Nya dengan melakukan apa yang Dia perintahkan dan menjauhi apa yang Dia larang. Banyak teks yang membicarakan tentang hal ini, di antaranya:</p>
+        <div class="ayat">«Sungguh, setan itu adalah musuh bagimu, maka jadikanlah ia musuh(mu)…»<span class="ref">(QS. Fathir: 6)</span></div>
+        <div class="ayat">«Sungguh, tidak ada kekuasaan (setan) atas orang-orang yang beriman dan bertawakal kepada Tuhan.»<span class="ref">(QS. An-Nahl: 99)</span></div>
+        <div class="ayat">«(Iblis) berkata: Demi kekuasaan-Mu, aku pasti akan menyesatkan mereka semuanya, kecuali hamba-hamba-Mu yang ikhlas di antara mereka.»<span class="ref">(QS. Shad: 82-83)</span></div>
+        <div class="hadits"><span class="hadits-label">Rasulullah ﷺ bersabda:</span>«Setan datang kepada salah seorang di antara kalian dan berkata: siapa yang menciptakan ini dan itu? hingga ia bertanya: siapa yang menciptakan Tuhanmu? Jika ia sampai pada pertanyaan itu, hendaklah ia memohon perlindungan kepada Allah dan berhenti dari pikiran-pikiran tersebut.»<span class="ref">Muttafaq 'alaih</span></div>
+      </div>
+    </div>
+
+    <div class="num-item">
+      <div class="num-badge nb-green">6</div>
+      <div class="num-item-content">
+        <strong>Tidak mengikuti hawa nafsu atau spekulasi; tidak bertaklid buta kepada orang tua, ulama, pemimpin, dan tokoh-tokoh berpengaruh; dan bersandar pada dalil dan bukti</strong>
+        <div class="ayat">«Kemudian Kami jadikan engkau (Muhammad) mengikuti syariat (peraturan) dari agama itu, maka ikutilah (syariat itu) dan janganlah engkau ikuti keinginan orang-orang yang tidak mengetahui.»<span class="ref">(QS. Al-Jatsiyah: 18)</span></div>
+        <div class="hadits"><span class="hadits-label">Rasulullah ﷺ bersabda:</span>«Hati-hatilah kalian dari prasangka, karena sesungguhnya prasangka adalah ucapan yang paling dusta.»<span class="ref">Muttafaq 'alaih</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- AKTIVITAS UNIT 2 -->
+  <div class="activity-wrap">
+    <div class="sec-title">Aktivitas Unit 2</div>
+    <div class="activity-item">
+      <div class="q-num">1</div>
+      <p style="flex:1"><strong>Jelaskan secara singkat hal-hal berikut:</strong><br>a. Sebab-sebab penyimpangan dari aqidah yang shahih.<br>b. Sumber-sumber aqidah yang shahih.<br>c. Cara-cara melindungi diri dari penyimpangan aqidah yang shahih.</p>
+    </div>
+    <div class="activity-item">
+      <div class="q-num">2</div>
+      <p style="flex:1"><strong>Berdasarkan bacaanmu sendiri, tulislah secara singkat tentang hal-hal berikut:</strong><br>– Berlebih-lebihan dalam agama.<br>– Bid'ah dan bahayanya bagi agama, individu, dan masyarakat.<br>– Taklid buta.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!--  UNIT 3                                                       -->
+<!-- ============================================================ -->
+<div id="unit3" class="section">
+
+  <div class="unit-hero uh-3" data-num="3">
+    <h2>Tauhid</h2>
+    <p>Definisi dan pentingnya Tauhid · Pengaruh Tauhid pada individu · Tauhid adalah Islam dan agama semua para rasul</p>
+  </div>
+
+  <!-- DEFINISI TAUHID -->
+  <div class="card card-purple">
+    <span class="tag tag-purple">Definisi</span>
+    <div class="sec-title purple">Definisi Tauhid</div>
+
+    <div class="grid2">
+      <div class="card" style="border:1px solid var(--purple-mid)">
+        <h4>Secara Bahasa</h4>
+        <p style="font-size:.9rem">Kata <em>tauhid</em> berasal dari kata dasar <em>wahhada</em> (وحّد), yang berarti: menjadikan sesuatu menjadi satu (mengesakan).</p>
+      </div>
+      <div class="card" style="border:1px solid var(--purple-mid)">
+        <h4>Secara Istilah Syari</h4>
+        <p style="font-size:.9rem">Tauhid berarti menisbatkan kepada Allah apa yang secara khusus hanya menjadi milik-Nya berupa ketuhanan (uluhiyyah), kekuasaan Rabb (rububiyyah), serta nama-nama dan sifat-sifat-Nya yang agung.</p>
+      </div>
+    </div>
+
+    <p style="font-size:.9rem;margin-top:.5rem">Dengan demikian, baik secara bahasa maupun istilah syari, tauhid menyampaikan makna keunikan; maka tauhid berarti meyakini bahwa Allah unik dalam hal sifat-sifat mulia yang hanya menjadi milik-Nya semata, dan tidak ada seorang pun yang bisa memiliki bagian darinya bersama-Nya, betapapun tingginya status orang tersebut – baik ia seorang malaikat yang dekat (kepada Allah), nabi yang diutus, maupun orang shalih.</p>
+
+    <div class="benefit">
+      <div class="benefit-title">Kata Tauhid dalam Al-Quran dan Sunnah</div>
+      <p>Para pengikut bid'ah mengklaim bahwa kata tauhid tidak ada dasarnya dalam Kitabullah atau Sunnah Rasulullah. Ini adalah klaim yang salah; bahkan teks-teks Al-Quran dan Sunnah penuh dengan kata ini.</p>
+      <p>Allah ﷻ berfirman: «Dan apabila hanya Allah saja yang disebut, hati orang-orang yang tidak beriman kepada akhirat menjadi sempit…» (QS. Al-Isra': 45). Dan Dia ﷻ berfirman: «Demikian itu karena apabila Allah saja yang disembah, kamu kafir…» (QS. Ghafir: 12). Dan Dia ﷻ berfirman: «…sehingga kamu beriman kepada Allah saja…» (QS. Al-Mumtahanah: 4). Dan Dia ﷻ berfirman: «Dan Tuhan kamu adalah Tuhan Yang Maha Esa…» (QS. Al-Baqarah: 163).</p>
+      <p>Dari Sunnah: Muslim meriwayatkan hadits tentang Haji Wada' dari Jabir رضي الله عنه yang di dalamnya disebutkan: "Hingga ketika beliau berada di Al-Baida', beliau mengangkat suaranya dengan mengucapkan kalimat tauhid." Dan dalam Ash-Shahihayn, diriwayatkan bahwa Nabi ﷺ berkata kepada Muadz رضي الله عنه ketika mengutusnya ke Yaman: "Hendaklah hal pertama yang kamu serukan kepada mereka adalah agar mereka mengesakan Allah (yuwahhidu)." Ini adalah lafal Al-Bukhari.</p>
+    </div>
+
+    <div class="divider"></div>
+    <h4>Syarat Sahnya Iman kepada Tauhid</h4>
+    <p style="font-size:.9rem">Perlu diketahui bahwa iman kepada tauhid tidak akan sah kecuali dengan terpenuhinya tiga syarat: meyakininya dalam hati, mengucapkannya dengan lisan, dan mengamalkannya dalam perbuatan. Syaikh Muhammad bin Abdul Wahhab berkata dalam kitabnya Kasyf Asy-Syubuhat: <em>"Tidak ada perbedaan pendapat di antara ulama bahwa iman kepada tauhid harus ditegaskan dalam hati, lisan, dan perbuatan fisik. Jika salah satu dari ketiganya tidak ada, maka orang tersebut tidak bisa menjadi seorang Muslim."</em></p>
+  </div>
+
+  <!-- PENTINGNYA TAUHID -->
+  <div class="card card-amber">
+    <span class="tag tag-amber">Kepentingan</span>
+    <div class="sec-title amber">Pentingnya Tauhid dan Kedudukannya</div>
+
+    <p style="font-size:.9rem;margin-bottom:.75rem">Ibnu Abi Al-Izz Al-Hanafi رحمه الله berkata: Ketahuilah bahwa tauhid (mengesakan Allah) adalah hal pertama yang para rasul serukan kepada manusia, dan merupakan langkah pertama yang harus seseorang ambil, tahap pertama dari perjalanan menuju Allah ﷻ. Hal ini juga terlihat dari besarnya kepentingan tauhid:</p>
+
+    <div class="num-item">
+      <div class="num-badge nb-amber">1</div>
+      <div class="num-item-content">
+        <strong>Tauhid adalah tujuan penciptaan</strong>
+        <div class="ayat">«Dan Aku tidak menciptakan jin dan manusia melainkan agar mereka beribadah kepada-Ku.»<span class="ref">(QS. Adz-Dzariyat: 56) – Yakni: agar mereka mengesakan-Ku.</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-amber">2</div>
+      <div class="num-item-content">
+        <strong>Tauhid adalah seruan seluruh para rasul عليهم السلام dan hal pertama yang mereka dakwahkan</strong>
+        <div class="ayat">«Dan Kami tidak mengutus seorang rasul pun sebelum engkau (Muhammad), melainkan Kami wahyukan kepadanya bahwa tidak ada tuhan (yang berhak disembah) selain Aku, maka sembahlah Aku.»<span class="ref">(QS. Al-Anbiya': 25)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-amber">3</div>
+      <div class="num-item-content">
+        <strong>Amal tidak akan diterima tanpanya</strong>
+        <div class="ayat">«Dan sungguh telah diwahyukan kepadamu dan kepada (nabi-nabi) yang sebelummu: Sungguh jika engkau mempersekutukan (Allah), niscaya akan hapuslah amalmu dan tentulah kamu termasuk orang yang rugi. Karena itu, sembahlah Allah dan jadilah termasuk orang yang bersyukur.»<span class="ref">(QS. Az-Zumar: 65-66)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-amber">4</div>
+      <div class="num-item-content">
+        <strong>Tauhid adalah kewajiban pertama yang harus dipelajari oleh setiap mukallaf</strong>
+        <div class="ayat">«Maka ketahuilah (Muhammad), bahwa tidak ada tuhan selain Allah…»<span class="ref">(QS. Muhammad: 19)</span></div>
+        <p>Tauhid juga merupakan kata terakhir yang harus seseorang ucapkan sebelum meninggal dunia.</p>
+        <div class="hadits"><span class="hadits-label">Diriwayatkan dari Muadz bin Jabal رضي الله عنه, ia berkata: Rasulullah ﷺ bersabda:</span>«Barangsiapa yang kata-kata terakhirnya adalah Laa ilaaha illallah, maka ia akan masuk surga.»<span class="ref">HR. Abu Dawud; dinilai shahih oleh Al-Albani</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-amber">5</div>
+      <div class="num-item-content">
+        <strong>Tauhid adalah hak Allah atas hamba-hamba-Nya</strong>
+        <div class="hadits"><span class="hadits-label">Muadz bin Jabal رضي الله عنه berkata:</span>Ketika aku sedang berkendara di belakang Nabi ﷺ, dengan tidak ada sesuatu pun antara aku dan beliau kecuali punggung pelana, beliau berkata: «Wahai Muadz bin Jabal!» Aku berkata: Aku siap dan di sini untuk melayanimu, wahai Rasulullah. Kemudian beliau melanjutkan perjalanan sebentar, lalu beliau berkata: «Wahai Muadz!» Aku berkata: Aku siap dan di sini untuk melayanimu, wahai Rasulullah. Kemudian beliau melanjutkan perjalanan sebentar, lalu beliau berkata: «Wahai Muadz!» Aku berkata: Aku siap dan di sini untuk melayanimu, wahai Rasulullah. Beliau berkata: «Tahukah kamu apa hak Allah atas hamba-hamba-Nya?» Aku berkata: Allah dan Rasul-Nya lebih tahu. Beliau berkata: «Hak Allah atas hamba-hamba-Nya adalah mereka hanya menyembah-Nya dan tidak mempersekutukan sesuatu pun dengan-Nya.»<span class="ref">Muttafaq 'alaih</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-amber">6</div>
+      <div class="num-item-content">
+        <strong>Tauhid adalah sarana umat Islam mendapatkan kekuatan dan keamanan di bumi</strong>
+        <div class="ayat">«Allah telah menjanjikan kepada orang-orang di antara kamu yang beriman dan yang mengerjakan kebajikan bahwa Dia sungguh akan menjadikan mereka berkuasa di bumi…»<span class="ref">(QS. An-Nur: 55)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-amber">7</div>
+      <div class="num-item-content">
+        <strong>Tauhid adalah sarana mendapatkan keamanan di dunia dan akhirat</strong>
+        <div class="ayat">«Orang-orang yang beriman dan tidak mencampuri keimanan mereka dengan kezaliman (syirik), mereka itulah yang mendapat rasa aman dan mereka mendapat petunjuk.»<span class="ref">(QS. Al-An'am: 82)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-amber">8</div>
+      <div class="num-item-content">
+        <strong>Tauhid adalah sarana mendapatkan ampunan dosa</strong>
+        <div class="ayat">«Sesungguhnya Allah tidak mengampuni dosa karena mempersekutukan-Nya (syirik), dan Dia mengampuni apa (dosa) yang selain (syirik) itu bagi siapa yang Dia kehendaki.»<span class="ref">(QS. An-Nisa': 116)</span></div>
+        <p>Menyekutukan yang lain dengan Allah (syirik) adalah penghalang untuk mendapatkan ampunan atas dosa-dosa.</p>
+        <div class="benefit">
+          <div class="benefit-title">Hadits tentang Secarik Kertas</div>
+          <p>At-Tirmidzi meriwayatkan dari Abdullah bin Amr bin Al-Ash رضي الله عنه dari Nabi ﷺ bahwa beliau bersabda: «Allah akan mempertemukan seorang dari umatku di hadapan seluruh makhluk pada Hari Kiamat dan membentangkan sembilan puluh sembilan gulungan catatan (yang berisi catatan keburukan-keburukannya) di hadapannya, setiap gulungan sepanjang mata memandang. Kemudian Dia berfirman: 'Apakah kamu mengingkari sesuatu dari ini? Apakah para pencatat-Ku yang menjaga telah berbuat zalim kepadamu?' Ia berkata: 'Tidak, wahai Tuhanku.' Allah berfirman: 'Apakah kamu punya alasan?' Ia berkata: 'Tidak, wahai Tuhanku.' Allah berfirman: 'Bahkan kamu memiliki satu kebaikan di sisi Kami, dan kamu tidak akan dizalimi pada hari ini.' Kemudian sebuah kertas kecil dikeluarkan, yang di atasnya tertulis: Asyhadu an laa ilaaha illallah wa asyhadu anna Muhammadan abduhu wa rasuluhu (Aku bersaksi bahwa tidak ada tuhan yang berhak disembah selain Allah, dan aku bersaksi bahwa Muhammad adalah hamba dan utusan-Nya).' Allah berfirman: 'Bawakan timbanganmu.' Orang itu berkata: 'Ya Tuhan, apa arti secarik kertas ini dibanding semua gulungan itu?' Dan Allah menjawab: 'Kamu tidak akan dizalimi.' Gulungan-gulungan itu kemudian diletakkan di satu sisi Timbangan dan kertas kecil itu di sisi lainnya, dan gulungan-gulungan itu menjadi ringan sedangkan kertas kecil itu berat, karena tidak ada sesuatu pun yang bisa menandingi berat nama Allah.»</p>
+          <p>Syaikh Al-Islam Ibnu Taimiyyah berkomentar tentang hadits ini: "Itu karena apa yang menyertai kata ini berupa kejujuran, ketulusan, kemurnian hati, dan niat yang baik..."</p>
+        </div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-amber">9</div>
+      <div class="num-item-content">
+        <strong>Tauhid merupakan agama dan jalan Nabi Ibrahim عليه السلام</strong>
+        <div class="ayat">«Kemudian Kami wahyukan kepadamu (Muhammad): Ikutilah agama Ibrahim yang lurus, dan dia bukanlah termasuk orang-orang yang mempersekutukan Tuhan.»<span class="ref">(QS. An-Nahl: 123)</span></div>
+        <div class="ayat">«Dan (ingatlah), ketika Ibrahim berkata: Ya Tuhanku, jadikanlah negeri ini (Mekah) negeri yang aman, dan jauhkanlah aku beserta anak cucuku agar tidak menyembah berhala-berhala.»<span class="ref">(QS. Ibrahim: 35)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-amber">10</div>
+      <div class="num-item-content">
+        <strong>Tauhid adalah sebaik-baik amal</strong>
+        <div class="hadits"><span class="hadits-label">Diriwayatkan dari Abu Hurairah رضي الله عنه, ia berkata: Nabi ﷺ ditanya: Amal apakah yang paling utama? Beliau menjawab:</span>«Beriman kepada Allah dan Rasul-Nya.»<span class="ref">HR. Al-Bukhari dan Muslim</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-amber">11</div>
+      <div class="num-item-content">
+        <strong>Tauhid adalah syarat masuk surga</strong>
+        <div class="ayat">«Barangsiapa mengerjakan kebajikan, baik laki-laki maupun perempuan dalam keadaan beriman, maka pasti akan Kami masukkan dia ke dalam surga, dia diberi rezeki di dalamnya tanpa batas.»<span class="ref">(QS. Ghafir: 40)</span></div>
+        <p>Siapa pun yang melakukan hal yang bertentangan dengan tauhid, seperti menyekutukan Allah dan sebagainya, maka surga diharamkan baginya, dan tempat tinggalnya adalah neraka.</p>
+        <div class="ayat">«Sesungguhnya barangsiapa menyekutukan Allah, maka sungguh, Allah mengharamkan surga baginya, dan tempatnya di neraka. Dan tidak ada seorang penolong pun bagi orang-orang yang zalim.»<span class="ref">(QS. Al-Maidah: 72)</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PENGARUH TAUHID PADA INDIVIDU -->
+  <div class="card card-green">
+    <span class="tag tag-green">Pengaruh</span>
+    <div class="sec-title green">Pengaruh Tauhid pada Individu</div>
+
+    <div class="num-item">
+      <div class="num-badge nb-green">1</div>
+      <div class="num-item-content">
+        <strong>Kehidupan yang baik di dunia dan akhirat</strong>
+        <div class="ayat">«Barangsiapa mengerjakan kebajikan, baik laki-laki maupun perempuan dalam keadaan beriman, maka pasti akan Kami berikan kepadanya kehidupan yang baik dan akan Kami beri balasan dengan pahala yang lebih baik dari apa yang telah mereka kerjakan.»<span class="ref">(QS. An-Nahl: 97)</span></div>
+        <p>Ibnu Al-Qayyim رحمه الله berkata: <em>"Tauhid dan ketulusan adalah seperti pohon dalam hati, cabang-cabangnya adalah amal shalih dan buahnya adalah kehidupan yang baik di dunia ini dan kebahagiaan abadi di akhirat... Sedangkan syirik, kebohongan, dan riya' adalah seperti pohon dalam hati, buah-buahnya di dunia ini adalah rasa takut, khawatir, kesulitan, kecemasan, dan kegelapan dalam hati, dan buahnya di akhirat adalah zaqqum dan siksa yang abadi."</em></p>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-green">2</div>
+      <div class="num-item-content">
+        <strong>Terhindar dari kesusahan di dunia dan akhirat</strong>
+        <p>Ibnu Al-Qayyim رحمه الله berkata: <em>"Tauhid adalah tempat orang-orang berlindung, baik musuh maupun sahabat Allah. Bagi musuh-Nya, Dia menyelamatkan mereka dari kesulitan dan kesengsaraan di dunia ini... Adapun para kekasih-Nya, Dia akan menyelamatkan mereka dari kesulitan dan kesengsaraan di dunia ini dan di akhirat. Tidak ada sarana yang lebih efektif untuk menangkal kesulitan dan malapetaka dunia ini selain tauhid."</em></p>
+        <div class="ayat">«Dan apabila mereka naik kapal, mereka berdoa kepada Allah dengan penuh ketulusan. Tetapi ketika Dia menyelamatkan mereka ke darat, tiba-tiba mereka (kembali) mempersekutukan (Allah).»<span class="ref">(QS. Al-Ankabut: 65)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-green">3</div>
+      <div class="num-item-content">
+        <strong>Keteguhan di dalam kubur</strong>
+        <div class="ayat">«Allah meneguhkan (iman) orang-orang yang beriman dengan perkataan yang teguh itu dalam kehidupan di dunia dan di akhirat…»<span class="ref">(QS. Ibrahim: 27)</span></div>
+        <div class="hadits"><span class="hadits-label">Diriwayatkan dari Al-Bara' bin 'Azib رضي الله عنه bahwa Rasulullah ﷺ bersabda:</span>«Ketika seorang Muslim ditanya di dalam kubur, ia akan bersaksi bahwa tidak ada tuhan yang berhak disembah selain Allah dan bahwa Muhammad adalah Rasulullah. Itulah yang dimaksud dengan: "Allah meneguhkan orang-orang yang beriman dengan perkataan yang teguh dalam kehidupan di dunia dan di akhirat."»<span class="ref">HR. Al-Bukhari dan Muslim</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-green">4</div>
+      <div class="num-item-content">
+        <strong>Selamat dari keabadian di dalam neraka</strong>
+        <p>Diriwayatkan dalam hadits-hadits mutawatir dari Nabi ﷺ bahwa para muwahhidin (orang-orang yang mengesakan Allah) akan dikeluarkan dari neraka. Syaikh Al-Islam berkata: <em>"Terdapat hadits-hadits mutawatir dari Nabi ﷺ yang menyatakan bahwa Allah akan mengeluarkan sebagian orang dari neraka setelah mereka memasukinya..."</em></p>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-green">5</div>
+      <div class="num-item-content">
+        <strong>Aman dari rasa takut dan teror di dunia dan akhirat</strong>
+        <p>Sedangkan rasa takut dan teror adalah hal yang menimpa orang kafir karena syiriknya.</p>
+        <div class="ayat">«Akan Kami masukkan rasa takut ke dalam hati orang-orang kafir, karena mereka mempersekutukan Allah dengan sesuatu yang Allah sendiri tidak menurunkan alasan (untuk mempersekutukan-Nya)…»<span class="ref">(QS. Ali Imran: 151)</span></div>
+        <div class="ayat">«Orang-orang yang telah ada untuk mereka ketetapan yang baik dari Kami, mereka itu dijauhkan dari neraka… Mereka tidak mendengar desirannya, dan mereka kekal dalam apa yang diinginkan oleh diri mereka sendiri. Mereka tidak sedih oleh kegelisahan yang paling besar, dan para malaikat akan menyambut mereka (dengan ucapan): "Inilah harimu yang telah dijanjikan kepadamu."»<span class="ref">(QS. Al-Anbiya': 101-103)</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TAUHID ADALAH ISLAM -->
+  <div class="card card-teal">
+    <span class="tag tag-teal">Penjelasan Penting</span>
+    <div class="sec-title">Tauhid adalah Islam dan Agama Semua Para Rasul</div>
+
+    <p style="font-size:.9rem">Agama yang dengannya Allah mengutus para rasul-Nya عليهم السلام, dan yang dengannya Dia menurunkan kitab-kitab-Nya, adalah <strong>Islam</strong>. Maknanya adalah: mengesakan Allah ﷻ dengan beribadah kepada-Nya dan tunduk sepenuhnya kepada-Nya. Itulah agama Allah ﷻ di langit dan di bumi.</p>
+
+    <div class="ayat">«Sesungguhnya agama di sisi Allah ialah Islam.»<span class="ref">(QS. Ali Imran: 19)</span></div>
+    <div class="ayat">«Dan barangsiapa mencari agama selain Islam, dia tidak akan diterima, dan di akhirat dia termasuk orang yang rugi.»<span class="ref">(QS. Ali Imran: 85)</span></div>
+
+    <p style="font-size:.9rem;margin-top:.5rem">Allah ﷻ memberitahu kita tentang apa yang dikatakan Nuh عليه السلام ketika berkhutbah kepada kaumnya:</p>
+    <div class="ayat">«…Dan jika kamu berpaling maka aku tidak meminta imbalan apa pun darimu. Imbalanku hanyalah dari Allah, dan aku diperintahkan agar aku termasuk orang-orang Muslim.»<span class="ref">(QS. Yunus: 72)</span></div>
+    <div class="ayat">«…Siapa yang enggan dari agama Ibrahim, kecuali orang yang memperbodoh dirinya sendiri?... Ketika Tuhannya berfirman kepadanya: "Berserah dirilah!" Dia berkata: "Aku berserah diri kepada Tuhan seluruh alam." Dan Ibrahim mewasiatkan (ucapan) itu kepada anak-anaknya, demikian pula Ya'qub. (Ibrahim berkata): "Hai anak-anakku! Sesungguhnya Allah telah memilih agama ini bagimu, maka janganlah kamu mati kecuali dalam memeluk agama Islam."»<span class="ref">(QS. Al-Baqarah: 130-132)</span></div>
+    <div class="ayat">«Ibrahim bukan seorang Yahudi dan bukan pula seorang Nasrani, tetapi dia adalah seorang yang lurus lagi berserah diri (Muslim) kepada Allah; dan sekali-kali dia bukanlah termasuk orang-orang yang mempersekutukan Allah.»<span class="ref">(QS. Ali Imran: 67)</span></div>
+
+    <div class="hadits"><span class="hadits-label">Rasulullah ﷺ bersabda:</span>«Para nabi adalah seperti saudara-saudara seayah berbeda ibu; agama mereka satu (tauhid), meskipun syariat mereka berbeda-beda.»<span class="ref">Muttafaq 'alaih</span></div>
+
+    <p style="font-size:.9rem">Maknanya adalah bahwa landasan utama agama mereka adalah satu, yaitu tauhid, meskipun detail-detail syariat mereka berbeda-beda. Tidak ada keterkaitan antara kenyataan bahwa syariat-syariat bisa berubah dan dihapus, dengan kenyataan bahwa agama asal menyerukan kepada tauhid dan ketundukan kepada Allah, Tuhan semesta alam, yang merupakan agama Islam yang murni.</p>
+
+    <div class="benefit">
+      <div class="benefit-title">Tentang Istilah "Tiga Agama Samawi"</div>
+      <p>Istilah ini keliru. Istilah ini digunakan oleh banyak Muslim awam dan memberikan kesan bahwa ada agama-agama yang sah selain Islam. Yang mereka maksud adalah Yahudi dan Nasrani. Namun tidak ada agama yang benar selain Islam. Ya, ada syariat-syariat yang berbeda, tetapi agamanya satu. Allah tidak memberikan nama-nama itu kepada mereka; merekalah yang menamai diri mereka sendiri. Allah ﷻ berfirman: «Mereka berkata: Jadilah Yahudi atau Nasrani, pasti kamu mendapat petunjuk.» (QS. Al-Baqarah: 135). Dan Allah ﷻ berfirman tentang apa yang mereka katakan tentang diri mereka sendiri: «Dan dari orang-orang yang mengatakan: "Kami ini orang Nasrani"…» (QS. Al-Maidah: 14).</p>
+    </div>
+  </div>
+
+  <!-- AKTIVITAS UNIT 3 -->
+  <div class="activity-wrap">
+    <div class="sec-title">Aktivitas Unit 3</div>
+    <div class="activity-item">
+      <div class="q-num">1</div>
+      <p style="flex:1">Apa makna tauhid secara bahasa dan istilah syari? Bagaimana kamu menanggapi orang yang mengatakan bahwa kata tauhid adalah kata bid'ah (yang diada-adakan)? Berikanlah dalilnya!</p>
+    </div>
+    <div class="activity-item">
+      <div class="q-num">2</div>
+      <p style="flex:1">Jelaskan secara singkat pentingnya tauhid. Mengapa tauhid adalah hal pertama yang didakwahkan oleh para nabi عليهم السلام kepada manusia?</p>
+    </div>
+    <div class="activity-item">
+      <div class="q-num">3</div>
+      <p style="flex:1">Apa pengaruh positif tauhid pada individu dan masyarakat? Dasarkan jawabanmu pada bacaanmu sendiri.</p>
+    </div>
+    <div class="activity-item">
+      <div class="q-num">4</div>
+      <p style="flex:1">Diskusikan frasa "tiga agama samawi" secara objektif, dengan mengutip nash-nash agama yang relevan.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!--  UNIT 4                                                       -->
+<!-- ============================================================ -->
+<div id="unit4" class="section">
+
+  <div class="unit-hero uh-4" data-num="4">
+    <h2>Pilar-pilar Tauhid</h2>
+    <p>Dua pilar tauhid · Kategori-kategori tauhid · Cara orang kafir mengakui rububiyyah · Dalil-dalil keberadaan Allah</p>
+  </div>
+
+  <!-- DUA PILAR -->
+  <div class="card card-green">
+    <span class="tag tag-green">Pilar-pilar Tauhid</span>
+    <div class="sec-title green">Pilar-pilar Tauhid</div>
+    <p style="font-size:.9rem;margin-bottom:.85rem">Tauhid memiliki dua pilar yang tanpanya tauhid tidak dapat ditegakkan: <strong>Pertama adalah penafian (nafi). Kedua adalah penetapan (itsba).</strong></p>
+    <p style="font-size:.875rem">Nash-nash Al-Quran dan Sunnah yang membicarakan tentang tauhid didasarkan pada dua konsep ini.</p>
+    <p style="font-size:.875rem">Asy-Shinqithi berkata: <em>"Untuk memahami makna Laa ilaaha illallah, kita dapat memperhatikan bahwa kalimat ini terdiri dari penafian dan penetapan."</em></p>
+
+    <div class="grid2" style="margin:.85rem 0">
+      <div class="card" style="border:2px solid var(--red);background:var(--red-light);text-align:center">
+        <div class="num-badge nb-red" style="margin:0 auto .65rem;width:36px;height:36px;font-size:1rem">1</div>
+        <h4>Penafian (Nafi)</h4>
+        <p style="font-size:.875rem">Meninggalkan segala sesuatu yang disembah selain Allah, tanpa terkecuali, dalam seluruh bentuk ibadah, tanpa terkecuali juga.</p>
+        <p style="font-size:.82rem;font-style:italic;margin-top:.5rem">"Laa ilaaha…"</p>
+      </div>
+      <div class="card" style="border:2px solid var(--teal);background:var(--teal-light);text-align:center">
+        <div class="num-badge nb-teal" style="margin:0 auto .65rem;width:36px;height:36px;font-size:1rem">2</div>
+        <h4>Penetapan (Itsba)</h4>
+        <p style="font-size:.875rem">Mendedikasikan seluruh bentuk ibadah hanya kepada Allah ﷻ semata, dengan tulus ikhlas, dengan cara yang telah Dia syariatkan melalui lisan para rasul-Nya.</p>
+        <p style="font-size:.82rem;font-style:italic;margin-top:.5rem">"…illallah"</p>
+      </div>
+    </div>
+
+    <p style="font-size:.9rem">Berdasarkan hal itu, barangsiapa hanya menetapkan bahwa Allah berhak disembah, tanpa meyakini secara definitif bahwa berpaling kepada selain-Nya dalam ibadah adalah hal yang batil, maka ia belum beriman dengan kalimat tauhid, yang dengannya ia akan bisa meraih keselamatan pada Hari Kiamat.</p>
+    <p style="font-size:.9rem">Demikian pula, siapa pun yang menolak ketuhanan (ilahiyyah) secara keseluruhan, ini adalah penafian semata bukan lebih. Ia belum beriman kepada tauhid, karena perlu ada penafian dan penetapan.</p>
+
+    <div class="ayat">«Dan Kami telah mengutus seorang rasul kepada setiap umat (untuk menyerukan): "Sembahlah Allah dan jauhilah tagut"…»<span class="ref">(QS. An-Nahl: 36) – Penetapan tampak pada kata: {Sembahlah Allah}. Penafian tampak pada kata: {dan jauhilah tagut}.</span></div>
+    <div class="ayat">«…Sembahlah Allah dan janganlah kamu mempersekutukan-Nya dengan sesuatu apapun…»<span class="ref">(QS. An-Nisa': 36) – Ini adalah perintah untuk menyembah Allah dan larangan mempersembahkan ibadah kepada selain-Nya. Dengan demikian, ini mencakup penafian sekaligus penetapan.</span></div>
+
+    <div class="benefit">
+      <div class="benefit-title">Kebebasan Beragama</div>
+      <p>Kebebasan beragama atau kebebasan berkeyakinan adalah prinsip yang menyerukan untuk memberikan kebebasan, kepada individu atau kelompok, untuk mempraktikkan agama mereka secara terbuka, atau berbicara tentang keyakinan mereka dan mempraktikkan ritual keagamaan mereka. Istilah ini juga mencakup kebebasan untuk mengganti agama atau tidak mengikuti agama apapun.</p>
+      <p>Berdasarkan apa yang telah kita bahas tentang dua pilar tauhid, menjadi jelas betapa berbahayanya seruan untuk "kebebasan beragama"! Itu karena hukum yang mengatur "kebebasan beragama" tidak mengakui kekufuran terhadap tagut; sebaliknya, mereka menyetujui segala sesuatu yang disembah selain Allah! Kebebasan ini memberikan hak kepada manusia untuk menyembah apa yang mereka inginkan, sambil pada saat yang sama mencegah orang lain dari menolak atau membantah kepalsuannya. Tidak diragukan lagi bahwa ini bertentangan dengan aqidah tauhid, salah satu aspek terpentingnya adalah menyembah Allah semata, tanpa sekutu atau mitra, dan tidak percaya serta menolak segala sesuatu yang disembah selain Allah. Itulah kekufuran terhadap tagut, yang wajib bagi orang yang beriman kepada keesaan Allah.</p>
+    </div>
+  </div>
+
+  <!-- AKTIVITAS PILAR -->
+  <div class="activity-wrap">
+    <div class="sec-title">Aktivitas – Pilar-pilar Tauhid</div>
+    <div class="activity-item">
+      <div class="q-num">1</div>
+      <p style="flex:1">"Dua pilar tauhid adalah penafian dan penetapan." Jelaskan kalimat ini secara rinci, dengan merujuk pada kitab-kitab aqidah.</p>
+    </div>
+    <div class="activity-item">
+      <div class="q-num">2</div>
+      <p style="flex:1">Apa makna kekufuran terhadap tagut? Bicarakanlah tentang hal itu dalam terang gagasan "kebebasan beragama," dengan menyoroti persamaan dan perbedaan di antara keduanya.</p>
+    </div>
+  </div>
+
+  <!-- KATEGORI TAUHID -->
+  <div class="card card-teal">
+    <span class="tag tag-teal">Kategori-kategori</span>
+    <div class="sec-title">Kategori-kategori Tauhid</div>
+    <p style="font-size:.875rem;margin-bottom:.85rem">Para ulama membagi tauhid menjadi tiga kategori:</p>
+    <div class="grid3">
+      <div class="pill pill-teal"><strong>1. Tauhid Rububiyyah</strong><br><small>(Keesaan Ketuhanan/Lordship)</small></div>
+      <div class="pill pill-teal"><strong>2. Tauhid Uluhiyyah</strong><br><small>(Keesaan Ibadah/Divinity)</small></div>
+      <div class="pill pill-teal"><strong>3. Tauhid Asma wa Sifat</strong><br><small>(Keesaan Nama dan Sifat)</small></div>
+    </div>
+    <p style="font-size:.875rem;margin-top:.75rem">Ketiga kategori ini akan dibahas secara rinci di bawah ini:</p>
+  </div>
+
+  <!-- RUBUBIYYAH -->
+  <div class="card card-blue">
+    <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:.85rem">
+      <div class="num-badge nb-blue" style="width:38px;height:38px;font-size:1.1rem">1</div>
+      <div class="sec-title" style="margin:0;padding:0;border:none">Tauhid Rububiyyah (Keesaan Ketuhanan)</div>
+    </div>
+    <p style="font-size:.9rem"><strong>Secara bahasa:</strong> Kata rububiyyah berasal dari akar kata <em>rababa</em>, dari mana muncul kata <em>ar-rabb</em> (tuhan). Ketika disebutkan tanpa kualifikasi, kata <em>ar-Rabb</em> (Tuhan) mengacu kepada Allah ﷻ, karena Dialah Tuhan segala sesuatu, dan kepada-Nya-lah kekuasaan atas seluruh ciptaan, tanpa sekutu atau mitra.</p>
+    <p style="font-size:.9rem">Dalam kaitannya dengan selain Allah, kata <em>rabb</em> hanya muncul dalam bentuk <em>idafah</em> (konstruksi genitif). Sehingga boleh dikatakan bahwa si fulan adalah rabb hadzash-shay (tuan dari sesuatu ini), artinya ia adalah pemiliknya. Contohnya dalam firman Allah ﷻ:</p>
+    <div class="ayat">«…Dan dia berkata kepada orang yang diperkirakan akan selamat di antara keduanya: "Ceritakanlah keadaanku kepada tuanmu (rabbika)."»<span class="ref">(QS. Yusuf: 42)</span></div>
+
+    <p style="font-size:.9rem;margin-top:.5rem"><strong>Secara istilah syari:</strong> Rububiyyah berarti <strong>beriman kepada seluruh tindakan Allah yang khusus bagi-Nya dan berkaitan dengan makhluk-Nya, yaitu: penciptaan, kedaulatan, dan kendali/pengaturan.</strong></p>
+    <p style="font-size:.875rem"><strong>Dari konsep-konsep ini banyak muncul hal-hal lain,</strong> seperti: pemberian rezeki, menahan rezeki, menganugerahkan, memberikan kehidupan, menyebabkan kematian, membangkitkan, memberikan manfaat, menghilangkan bahaya, dan konsep-konsep lain yang berkaitan dengan makna Allah sebagai ar-Rabb.</p>
+    <p style="font-size:.875rem">Dengan demikian yang dimaksud dengan rububiyyah adalah bahwa Allah bertanggung jawab atas hamba-hamba-Nya dalam arti Dia merawat mereka, memastikan kesejahteraan mereka, dan mengendalikan urusan mereka. Syaikh Al-Islam berkata: <em>"Ar-Rabb adalah Dia yang merawat (yurabbi) hamba-Nya dan mengendalikan urusannya."</em></p>
+
+    <div class="divider"></div>
+    <h4>Rububiyyah didasarkan pada tiga hal yang hanya ditetapkan untuk Allah ﷻ:</h4>
+
+    <div class="num-item">
+      <div class="num-badge nb-blue">A</div>
+      <div class="num-item-content">
+        <strong>Penciptaan</strong>
+        <p>Artinya, hanya Allah ﷻ yang Maha Pencipta, dan tidak ada seorang pun yang memiliki kemampuan untuk menciptakan selain Allah. Banyak sekali dalil mengenai hal ini, di antaranya:</p>
+        <div class="ayat">«Ingatlah, menciptakan dan memerintah hanyalah hak Allah. Mahasuci Allah, Tuhan seluruh alam.»<span class="ref">(QS. Al-A'raf: 54)</span></div>
+        <div class="ayat">«Dialah Allah yang Menciptakan, Yang Mengadakan, Yang Membentuk Rupa…»<span class="ref">(QS. Al-Hasyr: 24)</span></div>
+        <div class="ayat">«Dan berhala-berhala yang mereka seru selain Allah tidak menciptakan sesuatu apapun, bahkan mereka sendiri diciptakan.»<span class="ref">(QS. An-Nahl: 20)</span></div>
+        <div class="ayat">«Sesungguhnya segala yang kamu seru selain Allah tidak akan dapat menciptakan seekor lalat pun, walaupun mereka bersatu untuk menciptakannya…»<span class="ref">(QS. Al-Hajj: 73)</span></div>
+        <p>Yang dimaksud dengan penciptaan di sini adalah mengadakan sesuatu dari ketiadaan. Tidak ada seorang pun yang mampu melakukan itu kecuali Allah ﷻ. Dalam kasus Allah ﷻ, Dia mampu menciptakan hanya dengan mengatakan "Jadilah!" dan jadilah ia.</p>
+        <div class="benefit">
+          <div class="benefit-title">Apakah selain Allah bisa menjadi pencipta?</div>
+          <p>Sebagian pembuat bid'ah dari kalangan para filosof dan lainnya mengklaim bahwa ada pencipta-pencipta lain selain Allah, dengan mengutip sebagai bukti firman Allah: «…Maka Mahasuci Allah, Pencipta yang paling baik.» (QS. Al-Mu'minun: 14). Menurut mereka, Allah menegaskan bahwa ada pencipta-pencipta lain selain-Nya.</p>
+          <p>Jawabannya: bahwa penciptaan ketika dinisbatkan kepada makhluk mengacu pada pengubahan sesuatu menjadi sesuatu yang lain, seperti mengubah tanah liat menjadi kendi, kayu menjadi roda, dan seterusnya. Ini juga tunduk pada tersedianya sarana dan cara yang telah Allah sediakan. Sedangkan dalam kasus Allah ﷻ, Dia mampu menciptakan hanya dengan mengatakan "Jadilah!"</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="num-item">
+      <div class="num-badge nb-blue">B</div>
+      <div class="num-item-content">
+        <strong>Kedaulatan (Kekuasaan)</strong>
+        <p>Artinya, hanya Allah ﷻ yang berdaulat. Banyak sekali dalil mengenai hal ini, di antaranya:</p>
+        <div class="ayat">«Katakanlah (Muhammad): Wahai Tuhan pemilik kekuasaan, Engkau berikan kekuasaan kepada siapa pun yang Engkau kehendaki, dan Engkau cabut kekuasaan dari siapa pun yang Engkau kehendaki…»<span class="ref">(QS. Ali Imran: 26)</span></div>
+        <div class="ayat">«Mahasuci Allah yang di tangan-Nya lah segala kekuasaan, dan Dia Mahakuasa atas segala sesuatu.»<span class="ref">(QS. Al-Mulk: 1)</span></div>
+        <div class="ayat">«…dan katakanlah: Segala puji bagi Allah yang tidak mempunyai anak dan tidak mempunyai sekutu dalam kerajaan-Nya…»<span class="ref">(QS. Al-Isra': 111)</span></div>
+      </div>
+    </div>
+
+    <div class="num-item">
+      <div class="num-badge nb-blue">C</div>
+      <div class="num-item-content">
+        <strong>Kendali/Pengaturan</strong>
+        <p>Artinya, hanya Allah ﷻ yang mengendalikan segala sesuatu dan mengatur jalannya alam semesta ini. Banyak sekali dalil mengenai hal ini, di antaranya:</p>
+        <div class="ayat">«…dan menundukkan matahari dan bulan; masing-masing beredar menurut waktu yang ditentukan. Dia mengatur urusan; menjelaskan tanda-tanda (kebesaran-Nya) agar kamu meyakini pertemuan dengan Tuhanmu.»<span class="ref">(QS. Ar-Ra'd: 2)</span></div>
+        <div class="ayat">«…kemudian Dia bersemayam di atas 'Arsy mengatur segala urusan…»<span class="ref">(QS. Yunus: 3)</span></div>
+        <div class="ayat">«Katakanlah: Siapakah yang memberi rezeki kepadamu dari langit dan bumi, atau siapakah yang kuasa menciptakan pendengaran dan penglihatan, dan siapakah yang mengeluarkan yang hidup dari yang mati dan mengeluarkan yang mati dari yang hidup, dan siapakah yang mengatur segala urusan? Maka mereka akan menjawab: Allah.»<span class="ref">(QS. Yunus: 31)</span></div>
+        <div class="ayat">«Dia mengatur urusan dari langit ke bumi…»<span class="ref">(QS. As-Sajdah: 5)</span></div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+    <h4>Konsep-konsep lain yang berkaitan dengan rububiyyah:</h4>
+    <p style="font-size:.875rem">Seperti pemberian kehidupan dan kematian, pemberian rezeki, kebangkitan, menyebabkan bahaya dan manfaat, dan sebagainya.</p>
+    <div class="ayat">«…dan Dialah yang menghidupkan dan mematikan, dan Dialah yang memberikan kehidupan dan kematian…»<span class="ref">(QS. Ad-Dukhan: 8)</span></div>
+    <div class="ayat">«…Allah melapangkan rezeki bagi siapa yang Dia kehendaki di antara hamba-hamba-Nya dan Dia (pula) yang membatasi baginya…»<span class="ref">(QS. Al-Ankabut: 62)</span></div>
+    <div class="hadits"><span class="hadits-label">Rasulullah ﷺ bersabda:</span>«Ya Allah, tidak ada yang bisa menahan apa yang Engkau berikan, dan tidak ada yang bisa memberikan apa yang Engkau tahan.»<span class="ref">HR. Al-Bukhari dan Muslim</span></div>
+  </div>
+
+  <!-- KAFIR AKUI RUBUBIYYAH -->
+  <div class="card card-amber">
+    <span class="tag tag-amber">Perhatian Penting</span>
+    <div class="sec-title amber">Orang-orang Kafir dan Musyrik Mengakui Keesaan Ketuhanan (Rububiyyah)</div>
+    <p style="font-size:.9rem;margin-bottom:.5rem"><strong>Apakah orang-orang kafir mengakui keesaan Ketuhanan?</strong></p>
+    <p style="font-size:.9rem"><strong>Jawaban:</strong> Seluruh ciptaan mengakui keesaan ketuhanan; bahkan orang-orang kafir dan musyrik pun mengakui keesaan ketuhanan Allah. Banyak sekali dalil mengenai hal ini, di antaranya:</p>
+
+    <div class="num-item">
+      <div class="num-badge nb-amber">1</div>
+      <div class="num-item-content">
+        <div class="ayat">«Dan sungguh jika kamu tanyakan kepada mereka: Siapakah yang menciptakan langit dan bumi? Tentu mereka akan menjawab: Allah.»<span class="ref">(QS. Luqman: 25)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-amber">2</div>
+      <div class="num-item-content">
+        <div class="ayat">«Katakanlah (Muhammad): Milik siapakah bumi ini dan semua yang ada di dalamnya, jika kamu mengetahui? Mereka akan menjawab: Milik Allah.»<span class="ref">(QS. Al-Mu'minun: 84-85)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-amber">3</div>
+      <div class="num-item-content">
+        <p>Allah ﷻ memberitahu kita bagaimana Iblis mengakui ketuhanan Allah ﷻ:</p>
+        <div class="ayat">«(Iblis) berkata: Wahai Tuhanku, oleh karena Engkau telah memutuskan bahwa aku sesat…»<span class="ref">(QS. Al-Hijr: 39)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-amber">4</div>
+      <div class="num-item-content">
+        <div class="ayat">«Dan jika kamu tanyakan kepada mereka: Siapakah yang menciptakan langit dan bumi serta menundukkan matahari dan bulan? Tentu mereka akan menjawab: Allah. Maka mengapa mereka bisa dipalingkan (dari kebenaran)?»<span class="ref">(QS. Al-Ankabut: 61)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-amber">5</div>
+      <div class="num-item-content">
+        <div class="ayat">«Katakanlah (Muhammad): Siapakah yang memberi rezeki kepadamu dari langit dan bumi, atau siapakah yang kuasa menciptakan pendengaran dan penglihatan, dan siapakah yang mengeluarkan yang hidup dari yang mati dan mengeluarkan yang mati dari yang hidup, dan siapakah yang mengatur segala urusan? Maka mereka akan menjawab: Allah.»<span class="ref">(QS. Yunus: 31)</span></div>
+      </div>
+    </div>
+
+    
+    <div class="benefit">
+      <div class="benefit-title">Penting: Tauhid Rububiyyah Saja Tidak Cukup</div>
+      <p>Mengakui jenis tauhid ini saja tidak cukup untuk masuk Islam atau selamat di akhirat. Orang-orang kafir dan musyrik pun mengakuinya, namun Allah memutuskan mereka masuk neraka.</p>
+      <div class="ayat">«Sesungguhnya orang-orang yang kafir dari Ahli Kitab dan orang-orang musyrik akan masuk ke neraka Jahannam; mereka kekal di dalamnya selama-lamanya.»<span class="ref">(QS. Al-Bayyinah: 6)</span></div>
+      <p>Ibnu Al-Qayyim رحمه الله berkata: <em>"Tauhid tidak berarti sekadar mengakui bahwa tidak ada pencipta selain Allah. Sebaliknya, tauhid mencakup mencintai Allah, tunduk kepada-Nya, merendahkan diri di hadapan-Nya, menaati-Nya sepenuhnya, menyembah-Nya semata dengan kesetiaan yang tulus."</em></p>
+    </div>
+
+    <div class="benefit">
+      <div class="benefit-title">Tauhid Rububiyyah Mengimplikasikan Tauhid Uluhiyyah</div>
+      <p>Allah ﷻ menentukan bahwa beriman kepada-Nya sebagai satu-satunya Tuhan adalah alasan mengapa kita percaya bahwa hanya Dia yang berhak atas penghambaan kita.</p>
+      <div class="ayat">«Tuhan (yang memelihara) langit dan bumi dan apa yang ada di antara keduanya, maka sembahlah Dia dan berteguh hatilah dalam beribadah kepada-Nya...»<span class="ref">(QS. Maryam: 65)</span></div>
+    </div>
+  </div>
+
+  <!-- PENGARUH RUBUBIYYAH -->
+  <div class="card card-green">
+    <span class="tag tag-green">Pengaruh</span>
+    <div class="sec-title green">Pengaruh Mengimani Keesaan Ketuhanan terhadap Keimanan</div>
+
+    <div class="num-item">
+      <div class="num-badge nb-green">1</div>
+      <div class="num-item-content">
+        <strong>Mencintai Allah ﷻ</strong>
+        <div class="ayat">«…orang-orang yang beriman sangat besar cintanya kepada Allah.»<span class="ref">(QS. Al-Baqarah: 165)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-green">2</div>
+      <div class="num-item-content">
+        <strong>Mengagungkan Allah ﷻ</strong>
+        <div class="ayat">«…dan agungkanlah Dia sebenar-benarnya.»<span class="ref">(QS. Al-Isra': 111)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-green">3</div>
+      <div class="num-item-content">
+        <strong>Bertawakal kepada Allah ﷻ</strong>
+        <div class="ayat">«Sesungguhnya aku bertawakal kepada Allah, Tuhanku dan Tuhan kamu. Tidak ada suatu makhluk bergerak (bernyawa) pun melainkan Dia-lah yang memegang ubun-ubunnya...»<span class="ref">(QS. Hud: 56)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-green">4</div>
+      <div class="num-item-content">
+        <strong>Segera berpaling kepada Allah ﷻ di saat kesulitan</strong>
+        <div class="ayat">«(Ingatlah) ketika kamu memohon pertolongan kepada Tuhanmu, lalu Dia mengabulkan permohonanmu...»<span class="ref">(QS. Al-Anfal: 9)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-green">5</div>
+      <div class="num-item-content">
+        <strong>Bertaubat kepada Allah ﷻ dan merendahkan diri di hadapan-Nya</strong>
+        <div class="ayat">«Mereka berkata: Ya Tuhan kami, kami telah menzalimi diri kami sendiri, dan jika Engkau tidak mengampuni kami dan memberi rahmat kepada kami, niscaya kami termasuk orang-orang yang rugi.»<span class="ref">(QS. Al-A'raf: 23)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-green">6</div>
+      <div class="num-item-content">
+        <strong>Tunduk kepada Allah ﷻ dan menunjukkan kerendahan hati di hadapan-Nya</strong>
+        <div class="ayat">«Ketika Tuhannya berfirman kepadanya: Berserahlah! Dia berkata: Aku berserah diri kepada Tuhan seluruh alam.»<span class="ref">(QS. Al-Baqarah: 131)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-green">7</div>
+      <div class="num-item-content">
+        <strong>Takut kepada Allah ﷻ</strong>
+        <div class="ayat">«Sesungguhnya aku takut kepada Allah, Tuhan seluruh alam.»<span class="ref">(QS. Al-Maidah: 28)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-green">8</div>
+      <div class="num-item-content">
+        <strong>Merenungkan tanda-tanda kebesaran Allah di alam semesta</strong>
+        <div class="ayat">«Sesungguhnya dalam penciptaan langit dan bumi, dan pergantian malam dan siang… sungguh merupakan tanda-tanda (kebesaran Allah) bagi orang-orang yang mengerti.»<span class="ref">(QS. Al-Baqarah: 164)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-green">9</div>
+      <div class="num-item-content">
+        <strong>Mencapai ketulusan (ikhlas) yang sejati</strong>
+        <div class="ayat">«Sesungguhnya aku menghadapkan wajahku kepada (Allah) yang menciptakan langit dan bumi dengan penuh kepasrahan...»<span class="ref">(QS. Al-An'am: 79)</span></div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="num-badge nb-green">10</div>
+      <div class="num-item-content">
+        <strong>Menerima kehendak dan takdir Allah ﷻ</strong>
+        <div class="ayat">«…orang-orang yang apabila ditimpa musibah, mereka berkata: Sesungguhnya kami milik Allah dan sesungguhnya kepada-Nya-lah kami kembali.»<span class="ref">(QS. Al-Baqarah: 155-156)</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- AKTIVITAS RUBUBIYYAH -->
+  <div class="activity-wrap">
+    <div class="sec-title">Aktivitas – Kategori Tauhid & Rububiyyah</div>
+    <div class="activity-item">
+      <div class="q-num">1</div>
+      <p style="flex:1">Jelaskan makna kata rububiyyah. Bagaimana kata ini mencakup konsep: penciptaan, kedaulatan, dan kendali?</p>
+    </div>
+    <div class="activity-item">
+      <div class="q-num">2</div>
+      <p style="flex:1">Ada yang mengatakan bahwa selain Allah pun bisa menjadi pencipta, mengutip Al-Quran sebagai bukti. Apa dalil mereka dan apa jawabannya?</p>
+    </div>
+    <div class="activity-item">
+      <div class="q-num">3</div>
+      <p style="flex:1">Jelaskan hubungan antara Tauhid ar-Rububiyyah dan Tauhid al-Uluhiyyah, dengan mengutip dalil-dalil Al-Quran.</p>
+    </div>
+    <div class="activity-item">
+      <div class="q-num">4</div>
+      <p style="flex:1">Apa sikap orang-orang kafir terhadap Tauhid ar-Rububiyyah? Apa manfaatnya bagi mereka? Kutipkan dalil.</p>
+    </div>
+  </div>
+
+  <!-- DALIL KEBERADAAN ALLAH -->
+  <div class="card card-purple">
+    <span class="tag tag-purple">Dalil-dalil Keberadaan Allah</span>
+    <div class="sec-title purple">Dalil-dalil Keberadaan Allah ﷻ Selain Nash Agama</div>
+    <p style="font-size:.9rem">Ketika berbicara dengan orang-orang yang tidak beriman dan ateis, tidak tepat mengutip nash agama karena mereka tidak menerimanya. Karena itu perlu diberikan dalil-dalil lain. Ini terbatas pada tiga hal:</p>
+    <div class="pill-grid" style="margin:.75rem 0">
+      <div class="pill pill-purple">1. Dalil Fitrah Manusia</div>
+      <div class="pill pill-purple">2. Dalil Akal dan Logika</div>
+      <div class="pill pill-purple">3. Bukti Nyata dan Kasat Mata</div>
+    </div>
+  </div>
+
+  <!-- DALIL FITRAH -->
+  <div class="card card-blue">
+    <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:.75rem">
+      <div class="num-badge nb-blue" style="width:36px;height:36px;font-size:1rem">1</div>
+      <h4 style="margin:0">Dalil Fitrah Manusia</h4>
+    </div>
+    <p style="font-size:.9rem">Setiap makhluk dilahirkan dengan kecenderungan alami untuk beriman kepada Sang Pencipta, tanpa harus memikirkan atau mempelajarinya terlebih dahulu.</p>
+    <div class="hadits"><span class="hadits-label">Rasulullah ﷺ bersabda:</span>«Setiap anak dilahirkan dalam keadaan fitrah (Islam), kemudian kedua orang tuanya menjadikannya Yahudi, Nasrani, atau Majusi.»<span class="ref">HR. Al-Bukhari dan Muslim</span></div>
+    <div class="ayat">«Maka hadapkanlah wajahmu dengan lurus kepada agama (Islam); (sesuai) fitrah Allah disebabkan Dia telah menciptakan manusia menurut (fitrah) itu. Tidak ada perubahan pada ciptaan Allah. Itulah agama yang lurus...»<span class="ref">(QS. Ar-Rum: 30)</span></div>
+    <p style="font-size:.9rem">Bukti fitrah yang paling nyata: ketika seseorang dalam keadaan sangat sulit, ia berpaling kepada Allah ﷻ secara naluriah:</p>
+    <div class="ayat">«Dan apabila kamu ditimpa bencana di lautan, niscaya hilang semua yang biasa kamu seru kecuali Dia (Allah). Tetapi ketika Dia menyelamatkan kamu ke daratan, kamu berpaling (dari-Nya).»<span class="ref">(QS. Al-Isra': 67)</span></div>
+    <div class="ayat">«Dan apabila mereka naik kapal, mereka berdoa kepada Allah dengan penuh ketulusan. Tetapi ketika Dia menyelamatkan mereka ke darat, tiba-tiba mereka (kembali) mempersekutukan (Allah).»<span class="ref">(QS. Al-Ankabut: 65)</span></div>
+  </div>
+
+  <!-- DALIL AKAL -->
+  <div class="card card-blue">
+    <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:.75rem">
+      <div class="num-badge nb-blue" style="width:36px;height:36px;font-size:1rem">2</div>
+      <h4 style="margin:0">Dalil Akal dan Logika</h4>
+    </div>
+    <p style="font-size:.9rem">Setiap sesuatu yang diciptakan pasti ada penciptanya — fakta yang diterima semua orang berakal sehat.</p>
+    <p style="font-size:.875rem;font-style:italic">Seorang Badui berkata: "Kotoran unta menunjukkan bahwa unta pernah ada. Langit dengan bintang-bintangnya, bumi dengan berbagai bentuknya, lautan dengan ombaknya — apakah semua itu tidak menunjukkan keberadaan Yang Maha Mengetahui lagi Maha Waspada?"</p>
+    <div class="ayat">«Ataukah mereka diciptakan tanpa (penciptanya), ataukah mereka yang menciptakan (diri mereka sendiri)? Ataukah mereka yang menciptakan langit dan bumi? Sebenarnya mereka tidak meyakini (apa yang mereka katakan).»<span class="ref">(QS. At-Thur: 35-36)</span></div>
+
+    <div class="grid2" style="margin:.75rem 0">
+      <div class="card" style="border:1px solid var(--red-mid);background:var(--red-light)">
+        <h4 style="color:var(--red)">Kemungkinan Pertama — Mustahil</h4>
+        <p style="font-size:.875rem">Alam semesta tidak memiliki pencipta. Mustahil secara akal, karena sesuatu yang tidak ada tidak bisa menciptakan.</p>
+      </div>
+      <div class="card" style="border:1px solid var(--red-mid);background:var(--red-light)">
+        <h4 style="color:var(--red)">Kemungkinan Kedua — Mustahil</h4>
+        <p style="font-size:.875rem">Mereka menciptakan diri sendiri. Juga mustahil; tidak ada yang mengklaim menciptakan dirinya sendiri.</p>
+      </div>
+    </div>
+    <div class="benefit">
+      <div class="benefit-title">Kesimpulan</div>
+      <p>Pasti ada Zat yang mengadakan dan menciptakan semuanya, yaitu Allah Tuhan semesta alam. Ketika Jubair bin Muth'im mendengar ayat At-Thur, ia berkata: "Hatiku hampir melompat keluar." (HR. Al-Bukhari).</p>
+    </div>
+
+    <p style="font-size:.875rem;margin-top:.75rem">Imam Asy-Syafi'i ditanya tentang keberadaan Sang Pencipta. Ia berkata: <em>"Daun-daun murbei semuanya memiliki rasa yang sama. Ulat sutera memakan daun itu dan menghasilkan sutera. Lebah memakannya dan menghasilkan madu. Domba memakannya dan menghasilkan kotoran. Kijang memakannya dan menghasilkan minyak kesturi. Namun semuanya memakan hal yang sama."</em></p>
+    <div class="ayat">«Sesungguhnya dalam penciptaan langit dan bumi, dan pergantian malam dan siang… sungguh merupakan tanda-tanda (kebesaran Allah) bagi orang-orang yang mengerti.»<span class="ref">(QS. Al-Baqarah: 164)</span></div>
+  </div>
+
+  <!-- BUKTI NYATA -->
+  <div class="card card-blue">
+    <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:.75rem">
+      <div class="num-badge nb-blue" style="width:36px;height:36px;font-size:1rem">3</div>
+      <h4 style="margin:0">Bukti Nyata dan Kasat Mata</h4>
+    </div>
+    <p style="font-size:.9rem;font-weight:600">Dua jenis bukti nyata:</p>
+
+    <div class="num-item">
+      <div class="num-badge nb-teal">A</div>
+      <div class="num-item-content">
+        <strong>Allah mengabulkan doa orang-orang yang berdoa kepada-Nya saat kesulitan</strong>
+        <p>Lihatlah mereka yang dalam kesulitan besar di darat, laut, dan udara — mereka menyeru Allah ﷻ, maka Dia mengabulkan dan menghilangkan kesulitan mereka.</p>
+        <div class="ayat">«Atau siapakah yang memperkenankan (doa) orang yang dalam kesulitan apabila dia berdoa kepada-Nya, dan menghilangkan kesusahan?»<span class="ref">(QS. An-Naml: 62)</span></div>
+        <div class="ayat">«Dan (ingatlah kisah) Nuh, sebelum itu ketika dia berdoa. Kami perkenankan (doa)nya, lalu Kami selamatkan dia bersama pengikutnya dari bencana yang besar.»<span class="ref">(QS. Al-Anbiya': 76)</span></div>
+      </div>
+    </div>
+
+    <div class="num-item">
+      <div class="num-badge nb-teal">B</div>
+      <div class="num-item-content">
+        <strong>Mukjizat para Nabi عليهم السلام</strong>
+        <p>Tanda-tanda para nabi yang disaksikan orang-orang merupakan bukti pasti keberadaan Zat yang mengutus mereka, karena hal ini di luar kemampuan manusia biasa.</p>
+        <p><strong>Mukjizat Musa عليه السلام:</strong></p>
+        <div class="ayat">«Kemudian Kami wahyukan kepada Musa: Pukullah laut dengan tongkatmu. Maka terbelahlah lautan itu dan tiap-tiap belahan adalah seperti gunung yang besar.»<span class="ref">(QS. Asy-Syu'ara: 63)</span></div>
+        <p><strong>Mukjizat Isa عليه السلام:</strong></p>
+        <div class="ayat">«...dan aku menghidupkan orang mati dengan izin Allah...»<span class="ref">(QS. Ali Imran: 49)</span></div>
+        <p><strong>Mukjizat Nabi Muhammad ﷺ — terbelahnya bulan:</strong></p>
+        <div class="ayat">«Saat (hari Kiamat) semakin dekat, dan bulan pun terbelah. Dan jika mereka melihat sesuatu tanda (mukjizat), mereka berpaling dan berkata: (Ini adalah) sihir yang terus-menerus.»<span class="ref">(QS. Al-Qamar: 1-2)</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- AKTIVITAS AKHIR -->
+  <div class="activity-wrap">
+    <div class="sec-title">Aktivitas – Dalil Keberadaan Allah</div>
+    <div class="activity-item">
+      <div class="q-num">1</div>
+      <p style="flex:1">Mengapa ada pembahasan dalil-dalil non-teks untuk keberadaan Allah, dan kepada siapa hal itu terutama ditujukan?</p>
+    </div>
+    <div class="activity-item">
+      <div class="q-num">2</div>
+      <p style="flex:1">Di antara bukti terbesar keberadaan Allah ﷻ adalah bukti nyata dan kasat mata. Diskusikan hal ini.</p>
+    </div>
+    <div class="activity-item">
+      <div class="q-num">3</div>
+      <p style="flex:1">Tulislah sebuah esai yang menyebutkan argumen-argumen spekulatif kaum ateis dan tanggapannya.</p>
+    </div>
+    <div class="activity-item">
+      <div class="q-num">4</div>
+      <p style="flex:1">Mengapa mukjizat para nabi merupakan bukti pasti tentang keberadaan Allah ﷻ?</p>
+    </div>
+    <p style="text-align:center;font-weight:700;color:var(--teal);margin-top:1rem">وَاللَّهُ الْمُوَفِّقُ — Dan Allah adalah sumber kekuatan.</p>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!--  REFERENSI & INDEKS                                           -->
+<!-- ============================================================ -->
+<div id="refs" class="section">
+
+  <div class="unit-hero uh-1" data-num="📚">
+    <h2>Referensi dan Indeks Perkuliahan</h2>
+    <p>Sumber-sumber ilmiah · Jadwal perkuliahan · Daftar isi lengkap</p>
+  </div>
+
+  <div class="card">
+    <span class="tag tag-teal">Daftar Pustaka</span>
+    <div class="sec-title">16 Referensi Utama</div>
+    <div style="display:grid;gap:.55rem">
+      <div class="num-item"><div class="num-badge nb-teal" style="flex-shrink:0">1</div><div class="num-item-content"><em>Al-Ibanah Al-Kubra</em> – Ibnu Battah Al-Ukbari</div></div>
+      <div class="num-item"><div class="num-badge nb-teal" style="flex-shrink:0">2</div><div class="num-item-content"><em>Majmu' Al-Fatawa</em> – Taqiyuddin Ibnu Taimiyyah</div></div>
+      <div class="num-item"><div class="num-badge nb-teal" style="flex-shrink:0">3</div><div class="num-item-content"><em>Syarh Al-Aqidah At-Tahawiyyah</em> – Ibnu Abi Al-Izz Al-Hanafi. Dikomentari oleh Syaikh Abdullah At-Turki. Dar Ar-Risalah.</div></div>
+      <div class="num-item"><div class="num-badge nb-teal" style="flex-shrink:0">4</div><div class="num-item-content"><em>Syarh Tsalatsat Al-Ushul</em> – Syaikh Muhammad bin Shalih Al-Utsaimin. Dar Ats-Thurayya.</div></div>
+      <div class="num-item"><div class="num-badge nb-teal" style="flex-shrink:0">5</div><div class="num-item-content"><em>Syarh Al-Aqidah At-Tadmuriyyah</em> – Syaikh Abdurrahman bin Nashir Al-Barrak. Dar At-Tadmuriyyah, Riyadh, cet. ke-1, 1432 H.</div></div>
+      <div class="num-item"><div class="num-badge nb-teal" style="flex-shrink:0">6</div><div class="num-item-content"><em>Syarh Al-Aqidah At-Tahawiyyah</em> – Syaikh Abdurrahman bin Nashir Al-Barrak. Dar At-Tadmuriyyah, Riyadh, cet. ke-1, 1429 H.</div></div>
+      <div class="num-item"><div class="num-badge nb-teal" style="flex-shrink:0">7</div><div class="num-item-content"><em>Syarh Al-Aqidah Al-Wasithiyyah</em> – Syaikh Muhammad bin Shalih Al-Utsaimin. Dar Ibnu Al-Jawzi, Dammam, cet. ke-6, 1421 H.</div></div>
+      <div class="num-item"><div class="num-badge nb-teal" style="flex-shrink:0">8</div><div class="num-item-content"><em>Syarh Kitab At-Tauhid</em> – Syaikh Muhammad bin Shalih Al-Utsaimin.</div></div>
+      <div class="num-item"><div class="num-badge nb-teal" style="flex-shrink:0">9</div><div class="num-item-content"><em>Al-Madkhal li Dirasat Al-Aqidah Al-Islamiyyah 'ala Madhab Ahl as-Sunnah wa'l-Jama'ah</em> – Dr. Ibrahim Al-Buraykan. Dar Ibnu Al-Qayyim, Riyadh, cet. ke-1, 1423 H.</div></div>
+      <div class="num-item"><div class="num-badge nb-teal" style="flex-shrink:0">10</div><div class="num-item-content"><em>Ushul Al-Iman fi Dhaw Al-Kitab wa's-Sunnah</em> – Sekelompok ulama. Kementerian Urusan Islam, Kerajaan Arab Saudi.</div></div>
+      <div class="num-item"><div class="num-badge nb-teal" style="flex-shrink:0">11</div><div class="num-item-content"><em>Al-Iman: Haqiqatuhu wa Ziyadatuhu wa Tsamaratuhu</em> – Syaikh Abdullah bin Muhammad Al-Ghunayman. Dar At-Tadmuriyyah, Riyadh, cet. ke-1, 1424 H.</div></div>
+      <div class="num-item"><div class="num-badge nb-teal" style="flex-shrink:0">12</div><div class="num-item-content"><em>Al-Iman: Arkanuhu – Haqiqatuhu – Nawaqidhu</em> – Dr. Muhammad Na'im Yasin. Dar Umar bin Al-Khattab, Alexandria.</div></div>
+      <div class="num-item"><div class="num-badge nb-teal" style="flex-shrink:0">13</div><div class="num-item-content"><em>Bid'at I'adat Fahm An-Nas</em> – Syaikh Muhammad Shalih Al-Munajjid. Pengantar: Syaikh Shalih bin Fawzan Al-Fawzan. Zad Group.</div></div>
+      <div class="num-item"><div class="num-badge nb-teal" style="flex-shrink:0">14</div><div class="num-item-content"><em>Syarh Kitab At-Tauhid</em> – Syaikh Shalih bin Abd Al-Aziz Aal Asy-Syaikh. Dar At-Tauhid, cet. ke-1.</div></div>
+      <div class="num-item"><div class="num-badge nb-teal" style="flex-shrink:0">15</div><div class="num-item-content"><em>Al-Qawa'id Al-Mutsla fi Sifat Allah wa Asma'ihi Al-Husna</em> – Muhammad bin Shalih Al-Utsaimin. Dar Ibnu Al-Jawzi.</div></div>
+      <div class="num-item"><div class="num-badge nb-teal" style="flex-shrink:0">16</div><div class="num-item-content"><em>Syarh Al-Aqidah Al-Wasithiyyah</em> – Syaikh Shalih bin Fawzan Al-Fawzan.</div></div>
+    </div>
+  </div>
+
+  <!-- INDEKS PERKULIAHAN -->
+  <div class="card" style="margin-top:1.25rem">
+    <span class="tag tag-teal">Jadwal Kuliah</span>
+    <div class="sec-title">Indeks Perkuliahan – 24 Kuliah · 12 Minggu</div>
+    <div style="overflow-x:auto">
+      <table class="idx-table">
+        <thead>
+          <tr><th>No.</th><th>Materi Kuliah</th><th>Hal.</th><th>Minggu</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Pengantar Aqidah yang Shahih</td><td>11</td><td><span class="week-badge">Minggu 1</span></td></tr>
+          <tr><td>2</td><td>(2): Aqidah adalah seruan seluruh para rasul</td><td>13</td><td><span class="week-badge">Minggu 1</span></td></tr>
+          <tr><td>3</td><td>Sumber-sumber Aqidah yang Shahih</td><td>16</td><td><span class="week-badge">Minggu 2</span></td></tr>
+          <tr><td>4</td><td>Sumber kedua: Sunnah Nabi yang Shahih</td><td>20</td><td><span class="week-badge">Minggu 2</span></td></tr>
+          <tr><td>5</td><td>Prinsip-prinsip dasar Ahlus Sunnah untuk verifikasi aqidah</td><td>25</td><td><span class="week-badge">Minggu 3</span></td></tr>
+          <tr><td>6</td><td>(4) Teks-teks harus dipahami sesuai pemahaman Sahabat</td><td>28</td><td><span class="week-badge">Minggu 3</span></td></tr>
+          <tr><td>7</td><td>Sebab-sebab penyimpangan dari Aqidah yang Shahih</td><td>35</td><td><span class="week-badge">Minggu 4</span></td></tr>
+          <tr><td>8</td><td>(3) Mengikuti hawa nafsu dan keinginan</td><td>38</td><td><span class="week-badge">Minggu 4</span></td></tr>
+          <tr><td>9</td><td>Kesombongan</td><td>41</td><td><span class="week-badge">Minggu 5</span></td></tr>
+          <tr><td>10</td><td>Cara-cara melindungi diri dari penyimpangan Aqidah</td><td>44</td><td><span class="week-badge">Minggu 5</span></td></tr>
+          <tr><td>11</td><td>(4) Menahan diri dari berlebih-lebihan dalam agama</td><td>46</td><td><span class="week-badge">Minggu 6</span></td></tr>
+          <tr><td>12</td><td>Definisi dan Pentingnya Tauhid</td><td>51</td><td><span class="week-badge">Minggu 6</span></td></tr>
+          <tr><td>13</td><td>Pengaruh Tauhid pada Individu</td><td>53</td><td><span class="week-badge">Minggu 7</span></td></tr>
+          <tr><td>14</td><td>(7) Tauhid sebagai sarana keamanan di dunia dan akhirat</td><td>55</td><td><span class="week-badge">Minggu 7</span></td></tr>
+          <tr><td>15</td><td>Pengaruh Tauhid pada Individu (lanjutan)</td><td>57</td><td><span class="week-badge">Minggu 8</span></td></tr>
+          <tr><td>16</td><td>Penjelasan bahwa Tauhid adalah Islam</td><td>59</td><td><span class="week-badge">Minggu 8</span></td></tr>
+          <tr><td>17</td><td>Pilar-pilar Tauhid</td><td>63</td><td><span class="week-badge">Minggu 9</span></td></tr>
+          <tr><td>18</td><td>Kategori-kategori Tauhid</td><td>68</td><td><span class="week-badge">Minggu 9</span></td></tr>
+          <tr><td>19</td><td>Dalil tambahan berdasarkan akal: renungan dan kontemplasi</td><td>70</td><td><span class="week-badge">Minggu 10</span></td></tr>
+          <tr><td>20</td><td>Bagaimana orang-orang kafir mengakui Tauhid ar-Rububiyyah</td><td>72</td><td><span class="week-badge">Minggu 10</span></td></tr>
+          <tr><td>21</td><td>Pengaruh keyakinan Tauhid ar-Rububiyyah</td><td>74</td><td><span class="week-badge">Minggu 11</span></td></tr>
+          <tr><td>22</td><td>Dalil keberadaan Allah ﷻ selain nash agama</td><td>77</td><td><span class="week-badge">Minggu 11</span></td></tr>
+          <tr><td>23</td><td>(2) Dalil akal dan logika</td><td>78</td><td><span class="week-badge">Minggu 12</span></td></tr>
+          <tr><td>24</td><td>(3) Bukti nyata dan kasat mata</td><td>81</td><td><span class="week-badge">Minggu 12</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- PENERBIT -->
+  <div class="card card-teal" style="text-align:center;margin-top:1rem;padding:1.75rem">
+    <h4 style="color:#fff;font-size:1.1rem;margin-bottom:.25rem">Zad Group</h4>
+    <p style="font-size:.875rem;color:rgba(255,255,255,.85)">Al-Shatei, Beutat Business – Office 16 · P.O. Box 126371 Jeddah 21352</p>
+    <p style="font-size:.875rem;color:rgba(255,255,255,.85)">Telp: +966 12 6929242 · www.zadgroup.net</p>
+    <div style="border-top:1px solid rgba(255,255,255,.2);margin:.75rem 0;padding-top:.75rem">
+      <p style="font-size:.875rem;color:rgba(255,255,255,.8)"><strong>Distribusi:</strong> Obeikan Education · King Fahd Road, Al-Olayia, Riyadh</p>
+    </div>
+    <p style="font-size:.82rem;color:rgba(255,255,255,.65)">ISBN: 978-603-9218-951 · Edisi Pertama 1446 H / 2024 M</p>
+    <p style="font-size:.8rem;color:rgba(255,255,255,.55);margin-top:.4rem">Hak cipta dilindungi undang-undang. Tidak ada bagian dari publikasi ini yang boleh direproduksi tanpa izin tertulis dari penerbit.</p>
+  </div>
+
+</div><!-- end #refs -->
+
+</div><!-- end .page -->
+
+<script>
+function show(id, btn) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  btn.classList.add('active');
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+</script>
+</body>
+</html>
